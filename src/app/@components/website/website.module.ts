@@ -3,11 +3,11 @@ import { CommonModule } from '@angular/common';
 import { WebsiteComponent } from './website.component';
 import { FormsModule } from '@angular/forms';
 import { WebsiteRoutingModule } from './website-routing.module';
-import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
-  declarations: [WebsiteComponent, HeaderComponent, FooterComponent],
+  declarations: [WebsiteComponent, FooterComponent, HeaderComponent],
   imports: [CommonModule, FormsModule, WebsiteRoutingModule],
 })
 export class WebsiteModule {}
