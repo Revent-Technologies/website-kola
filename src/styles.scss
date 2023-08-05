@@ -1,1 +1,81 @@
 /* You can add global styles to this file, and also import other style files */
+@use './app/@core/styles/abstracts' as *;
+@use './app/@core/styles/components' as *;
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeSpeed;
+
+  &::-moz-selection {
+    color: #ffffff;
+    background: var(--flwmn-primary-color);
+  }
+
+  &::selection {
+    color: #ffffff;
+    background: var(--flwmn-primary-color);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Greycliff CF', sans-serif;
+  cursor: auto !important;
+}
+
+/* Custom Scrollbar */
+
+::-webkit-scrollbar {
+  width: 9.5px;
+  height: 9.5px;
+}
+
+::-webkit-scrollbar-thumb {
+  // border-radius: 8px;
+  // background-color: #ccc;
+  // background-color: var(--flwmn-primary-color);
+  background-color: var(--flwmn-neutral-300);
+  border: 1.5px solid transparent;
+  background-clip: content-box;
+}
+
+/************************No highlight or select on click************************/
+
+.no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */ /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+/*******************************************************************************/
+
+.mat-error {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: start !important;
+  -ms-flex-align: start !important;
+  align-items: flex-start !important;
+  gap: 0.5rem !important;
+  font-size: 0.75rem !important;
+
+  img {
+    width: 0.875rem;
+    height: 0.875rem;
+  }
+}
