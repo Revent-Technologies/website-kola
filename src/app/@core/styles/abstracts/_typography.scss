@@ -1,71 +1,84 @@
 @use 'media-query' as *;
 @use 'theme' as *;
 
-@font-face {
-  font-family: 'Greycliff CF';
-  font-display: swap;
-  src: local('Greycliff CF Thin'), local('GreycliffCF-Thin'),
-    url(/assets/fonts/GreycliffCF/GreycliffCF-Thin.woff2) format('woff2');
-  font-weight: 100;
-}
-
-@font-face {
-  font-family: 'Greycliff CF';
-  font-display: swap;
-  src: local('Greycliff CF Extra Light'), local('GreycliffCF-ExtraLight'),
-    url(/assets/fonts/GreycliffCF/GreycliffCF-ExtraLight.woff2) format('woff2');
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: 'Greycliff CF';
-  font-display: swap;
-  src: local('Greycliff CF Light'), local('GreycliffCF-Light'),
-    url(/assets/fonts/GreycliffCF/GreycliffCF-Light.woff2) format('woff2');
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: 'Greycliff CF';
-  font-display: swap;
-  src: local('Greycliff CF Medium'), local('GreycliffCF-Medium'),
-    url(/assets/fonts/GreycliffCF/GreycliffCF-Medium.woff2) format('woff2');
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: 'Greycliff CF';
-  font-display: swap;
-  src: local('Greycliff CF Demi Bold'), local('GreycliffCF-DemiBold'),
-    url(/assets/fonts/GreycliffCF/GreycliffCF-DemiBold.woff2) format('woff2');
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: 'Greycliff CF';
-  font-display: swap;
-  src: local('Greycliff CF Extra Bold'), local('GreycliffCF-ExtraBold'),
-    url(/assets/fonts/GreycliffCF/GreycliffCF-ExtraBold.woff2) format('woff2');
-  font-weight: 800;
-}
-
-@font-face {
-  font-family: 'Greycliff CF';
-  font-display: swap;
-  src: local('Greycliff CF Heavy'), local('GreycliffCF-Heavy'),
-    url(/assets/fonts/GreycliffCF/GreycliffCF-Heavy.woff2) format('woff2');
-  font-weight: 900;
-}
-
-// .zns-display-1 {
-//   font-size: 4.5rem;
-//   color: var(--zns-black);
+// @font-face {
+//   font-family: 'Greycliff CF';
+//   font-display: swap;
+//   src: local('Greycliff CF Thin'), local('GreycliffCF-Thin'),
+//     url(/assets/fonts/GreycliffCF/GreycliffCF-Thin.woff2) format('woff2');
+//   font-weight: 100;
 // }
 
-// .zns-display-2 {
-//   font-size: 3.75rem;
-//   color: var(--zns-black);
+// @font-face {
+//   font-family: 'Greycliff CF';
+//   font-display: swap;
+//   src: local('Greycliff CF Extra Light'), local('GreycliffCF-ExtraLight'),
+//     url(/assets/fonts/GreycliffCF/GreycliffCF-ExtraLight.woff2) format('woff2');
+//   font-weight: 200;
 // }
+
+// @font-face {
+//   font-family: 'Greycliff CF';
+//   font-display: swap;
+//   src: local('Greycliff CF Light'), local('GreycliffCF-Light'),
+//     url(/assets/fonts/GreycliffCF/GreycliffCF-Light.woff2) format('woff2');
+//   font-weight: 300;
+// }
+
+// @font-face {
+//   font-family: 'Greycliff CF';
+//   font-display: swap;
+//   src: local('Greycliff CF Medium'), local('GreycliffCF-Medium'),
+//     url(/assets/fonts/GreycliffCF/GreycliffCF-Medium.woff2) format('woff2');
+//   font-weight: 500;
+// }
+
+// @font-face {
+//   font-family: 'Greycliff CF';
+//   font-display: swap;
+//   src: local('Greycliff CF Demi Bold'), local('GreycliffCF-DemiBold'),
+//     url(/assets/fonts/GreycliffCF/GreycliffCF-DemiBold.woff2) format('woff2');
+//   font-weight: 600;
+// }
+
+// @font-face {
+//   font-family: 'Greycliff CF';
+//   font-display: swap;
+//   src: local('Greycliff CF Extra Bold'), local('GreycliffCF-ExtraBold'),
+//     url(/assets/fonts/GreycliffCF/GreycliffCF-ExtraBold.woff2) format('woff2');
+//   font-weight: 800;
+// }
+
+// @font-face {
+//   font-family: 'Greycliff CF';
+//   font-display: swap;
+//   src: local('Greycliff CF Heavy'), local('GreycliffCF-Heavy'),
+//     url(/assets/fonts/GreycliffCF/GreycliffCF-Heavy.woff2) format('woff2');
+//   font-weight: 900;
+// }
+
+.zns-display-0 {
+  font-size: 5.5rem;
+  color: var(--zns-black);
+
+  @include zns-media-query-max(zns-md) {
+    font-size: 3.5rem;
+  }
+
+  @include zns-media-query-max(zns-sm) {
+    font-size: 2.8rem;
+  }
+}
+
+.zns-display-1 {
+  font-size: 4.5rem;
+  color: var(--zns-black);
+}
+
+.zns-display-2 {
+  font-size: 3.75rem;
+  color: var(--zns-black);
+}
 
 .zns-heading {
   font-size: 4rem;
@@ -78,6 +91,7 @@
 
 .zns-heading-1 {
   font-size: 3rem;
+  font-family: 'Outfit', sans-serif;
   color: var(--zns-black);
 
   @include zns-media-query-max(zns-md) {
@@ -87,6 +101,7 @@
 
 .zns-heading-2 {
   font-size: 2.5rem;
+  font-family: 'Outfit', sans-serif;
   color: var(--zns-black);
 
   @include zns-media-query-max(zns-md) {
@@ -96,6 +111,7 @@
 
 .zns-heading-3 {
   font-size: 2.0625rem;
+  font-family: 'Outfit', sans-serif;
   color: var(--zns-black);
 
   @include zns-media-query-max(zns-md) {
@@ -105,6 +121,7 @@
 
 .zns-heading-4 {
   font-size: 1.75rem;
+  font-family: 'Outfit', sans-serif;
   color: var(--zns-black);
 
   @include zns-media-query-max(zns-md) {
@@ -114,6 +131,7 @@
 
 .zns-heading-5 {
   font-size: 1.4375rem;
+  font-family: 'Outfit', sans-serif;
   color: var(--zns-black);
 
   @include zns-media-query-max(zns-md) {
@@ -123,6 +141,7 @@
 
 .zns-heading-6 {
   font-size: 1.1875rem;
+  font-family: 'Outfit', sans-serif;
   color: var(--zns-black);
 
   @include zns-media-query-max(zns-md) {
@@ -132,6 +151,7 @@
 
 .zns-sub-heading {
   font-size: 1.25rem;
+  font-family: 'Outfit', sans-serif;
   color: var(--zns-black);
 }
 
@@ -142,28 +162,33 @@
 
 .zns-para-2 {
   font-size: 1rem;
+  font-family: 'Inter', sans-serif;
   color: var(--zns-black);
   margin-bottom: 0;
 }
 
 .zns-para-1 {
+  font-family: 'Outfit', sans-serif;
   font-size: 0.875rem;
   color: var(--zns-black);
 }
 
 .zns-para {
   font-size: 0.625rem;
+  font-family: 'Outfit', sans-serif;
   margin-bottom: 0;
 }
 
 .zns-caption {
   font-size: 0.75rem;
+  font-family: 'Outfit', sans-serif;
   color: var(--zns-black);
   margin-bottom: 0;
 }
 
 .zns-footer {
   font-size: 0.25rem;
+  font-family: 'Outfit', sans-serif;
   color: var(--zns-black);
 }
 
@@ -199,6 +224,10 @@
 
 .fi {
   font-style: italic;
+}
+
+.zns-opacity {
+  opacity: 0.7;
 }
 
 /*******************/

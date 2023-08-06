@@ -16,12 +16,12 @@
 
   &::-moz-selection {
     color: #ffffff;
-    background: var(--flwmn-primary-color);
+    background: var(--zns-primary-color);
   }
 
   &::selection {
     color: #ffffff;
-    background: var(--flwmn-primary-color);
+    background: var(--zns-primary-color);
   }
 }
 
@@ -32,7 +32,7 @@ html {
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Greycliff CF', sans-serif;
+  font-family: 'Outfit', sans-serif;
   cursor: auto !important;
 }
 
@@ -46,8 +46,8 @@ body {
 ::-webkit-scrollbar-thumb {
   // border-radius: 8px;
   // background-color: #ccc;
-  // background-color: var(--flwmn-primary-color);
-  background-color: var(--flwmn-neutral-300);
+  // background-color: var(--zns-primary-color);
+  background-color: var(--zns-neutral-300);
   border: 1.5px solid transparent;
   background-clip: content-box;
 }
