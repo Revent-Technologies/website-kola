@@ -1,0 +1,66 @@
+@use 'src/app/@core/styles/abstracts/media-query' as *;
+
+#home {
+  .top-background {
+    background-color: #fff;
+    background-image: url('../../../../assets/images/pic1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    height: 56.25rem;
+    background-blend-mode: normal;
+
+    @include zns-media-query-max(zns-sm) {
+      background-size: cover;
+      background-position-x: center;
+      background-blend-mode: normal;
+      height: 45rem;
+      padding-bottom: 0rem;
+    }
+  }
+
+  .top-section {
+    margin-top: 10rem;
+  }
+
+  .sh-text {
+    @include zns-media-query-max(zns-xs) {
+      text-shadow: 1px 2px 2px #eee5e5;
+    }
+  }
+
+  .top-title {
+    line-height: 7.375rem;
+  }
+
+  .top-para {
+    width: 35%;
+    line-height: 2rem;
+    color: #58556a;
+    padding-bottom: 2rem;
+    opacity: 0.8;
+    @include zns-media-query-max(zns-sm) {
+      text-shadow: 0px 1px 2px #b8a7a7;
+      width: 50%;
+    }
+  }
+
+  .top-btn {
+    font-size: 1.25rem;
+    padding: 0.6em 4.5em;
+
+    @include zns-media-query-max(zns-sm) {
+      font-size: 0.8rem;
+    }
+  }
+
+  .top-service {
+    display: inline;
+    margin-left: 3rem;
+
+    @include zns-media-query-max(zns-sm) {
+      background-blend-mode: darken;
+      margin-left: 0.3rem;
+    }
+  }
+}
