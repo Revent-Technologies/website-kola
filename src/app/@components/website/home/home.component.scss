@@ -1,6 +1,8 @@
 @use 'src/app/@core/styles/abstracts/media-query' as *;
 
 #home {
+  // Top Section
+
   .top-background {
     background-color: #fff;
     background-image: url('../../../../assets/images/pic1.png');
@@ -14,7 +16,7 @@
     @include zns-media-query-max(zns-sm) {
       background-size: cover;
       background-position-x: center;
-      background-blend-mode: normal;
+      background-blend-mode: darken;
       height: 50rem;
     }
 
@@ -23,15 +25,13 @@
     }
   }
 
-  // Top Section
-
   .top-section {
     margin-top: 10rem;
   }
 
   .sh-text {
     @include zns-media-query-max(zns-xsm) {
-      text-shadow: 1px 2px 2px #eee5e5;
+      text-shadow: 1px 2px 2px #5b5454;
     }
   }
 
@@ -51,7 +51,7 @@
     }
     @include zns-media-query-max(zns-sm) {
       width: 80%;
-      text-shadow: 0px 1px 1px #ccc8c8;
+      text-shadow: 0px 1px 1px #858080;
     }
   }
 
@@ -75,14 +75,20 @@
     }
   }
 
-  // Second Section
+  // Service Section
 
   .service-sec {
     background-color: #f4f4f4;
+    padding-bottom: 8rem;
+
+    @include zns-media-query-max(zns-lg) {
+      padding-bottom: 5rem;
+    }
 
     .services-container {
       p {
         width: 50%;
+
         @include zns-media-query-max(zns-lg) {
           width: 100%;
         }
@@ -96,15 +102,22 @@
 
   // Performance section
 
-  .performance-border {
-    padding-right: 10rem;
+  .performance-bg {
+    background: #0e0e0e;
+  }
 
-    .performance-works p {
-      color: #fff;
+  .performance-border {
+    border-left: 1px solid #532c4c;
+
+    @include zns-media-query-max(zns-md) {
+      border-left: none;
+      border-top: 1px solid #532c4c;
     }
 
-    .p-border {
-      border: 1px solid #efe6ee;
+    & > div {
+      @include zns-media-query-max(zns-sm) {
+        border-bottom: 1px solid #532c4c;
+      }
     }
   }
 }
