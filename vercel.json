@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "angular.json",
+        "use": "@vercel/static-build",
+        "config": { "distDir": "dist/your-angular-app-name" }
+      }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/dist/your-angular-app-name/$1" }
+    ],
+    "env": {
+      "HUSKY": "1"  
+    }
+  }
+  
