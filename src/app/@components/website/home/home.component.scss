@@ -1,6 +1,8 @@
 @use 'src/app/@core/styles/abstracts/media-query' as *;
 
 #home {
+  // Top Section
+
   .top-background {
     background-color: #fff;
     background-image: url('../../../../assets/images/pic1.png');
@@ -9,13 +11,17 @@
     background-position-x: right;
     height: 56.25rem;
     background-blend-mode: normal;
+    border-bottom: 0.1rem solid #81808f;
 
     @include zns-media-query-max(zns-sm) {
       background-size: cover;
       background-position-x: center;
-      background-blend-mode: normal;
-      height: 45rem;
-      padding-bottom: 0rem;
+      background-blend-mode: darken;
+      height: 50rem;
+    }
+
+    @include zns-media-query-max(zns-xsm) {
+      background-blend-mode: darken;
     }
   }
 
@@ -24,8 +30,8 @@
   }
 
   .sh-text {
-    @include zns-media-query-max(zns-xs) {
-      text-shadow: 1px 2px 2px #eee5e5;
+    @include zns-media-query-max(zns-xsm) {
+      text-shadow: 1px 2px 2px #5b5454;
     }
   }
 
@@ -39,9 +45,13 @@
     color: #58556a;
     padding-bottom: 2rem;
     opacity: 0.8;
-    @include zns-media-query-max(zns-sm) {
-      text-shadow: 0px 1px 2px #b8a7a7;
+
+    @include zns-media-query-max(zns-lg) {
       width: 50%;
+    }
+    @include zns-media-query-max(zns-sm) {
+      width: 80%;
+      text-shadow: 0px 1px 1px #858080;
     }
   }
 
@@ -49,8 +59,9 @@
     font-size: 1.25rem;
     padding: 0.6em 4.5em;
 
-    @include zns-media-query-max(zns-sm) {
+    @include zns-media-query-max(zns-xsm) {
       font-size: 0.8rem;
+      text-shadow: 0px 1px 1px #ccc8c8;
     }
   }
 
@@ -61,6 +72,52 @@
     @include zns-media-query-max(zns-sm) {
       background-blend-mode: darken;
       margin-left: 0.3rem;
+    }
+  }
+
+  // Service Section
+
+  .service-sec {
+    background-color: #f4f4f4;
+    padding-bottom: 8rem;
+
+    @include zns-media-query-max(zns-lg) {
+      padding-bottom: 5rem;
+    }
+
+    .services-container {
+      p {
+        width: 50%;
+
+        @include zns-media-query-max(zns-lg) {
+          width: 100%;
+        }
+      }
+
+      h3 {
+        color: #58556a;
+      }
+    }
+  }
+
+  // Performance section
+
+  .performance-bg {
+    background: #0e0e0e;
+  }
+
+  .performance-border {
+    border-left: 1px solid #532c4c;
+
+    @include zns-media-query-max(zns-md) {
+      border-left: none;
+      border-top: 1px solid #532c4c;
+    }
+
+    & > div {
+      @include zns-media-query-max(zns-sm) {
+        border-bottom: 1px solid #532c4c;
+      }
     }
   }
 }
