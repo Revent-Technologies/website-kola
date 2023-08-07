@@ -17,6 +17,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 14.x  # Adjust the Node.js version if needed
+
       - name: Install dependencies
         run: npm install
 
@@ -27,6 +28,6 @@ jobs:
         run: ng build --prod
 
       - name: Deploy to Vercel
-        uses: amondnet/vercel-action@v21  # Use the latest version available
+        uses: amondnet/vercel-action@dev  # Use the main branch of the action
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
