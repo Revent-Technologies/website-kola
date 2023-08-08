@@ -8,6 +8,7 @@ import { HomeServicesComponent } from './home-services/home-services.component';
 import { HomePerformanceComponent } from './home-performance/home-performance.component';
 import { HomeClientsComponent } from './home-clients/home-clients.component';
 import { HomeBlogsComponent } from './home-blogs/home-blogs.component';
+import { HomeAboutComponent } from './home-about/home-about.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { HomeBlogsComponent } from './home-blogs/home-blogs.component';
     HomePerformanceComponent,
     HomeClientsComponent,
     HomeBlogsComponent,
+    HomeAboutComponent,
   ],
   imports: [CommonModule, HomeRoutingModule],
 })

@@ -8,6 +8,52 @@
     border-radius: 0px 20px 0px 0px;
     background: #aa1d9b;
     display: inline-block;
-    padding: 0.2rem;
+    width: 2.8125rem;
+    height: 2.8125rem;
+  }
+
+  .blog-header {
+    color: #7433d3;
+  }
+
+  .blog-img {
+    background-image: url('../../../../../assets/images/blog-img.png');
+  }
+
+  .blog-img-1 {
+    background-image: url('../../../../../assets/images/blog-img-1.png');
+  }
+
+  .blog-img-2 {
+    background-image: url('../../../../../assets/images/blog-img-2.png');
+  }
+
+  .blog-img,
+  .blog-img-1,
+  .blog-img-2 {
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15.25rem;
+    border-radius: 8px 8px 0px 0px;
+  }
+
+  .blog-caption {
+    color: #04001f;
+    font-weight: 1.125rem;
+  }
+
+  .b-lh {
+    line-height: 1.75rem;
+  }
+
+  .read-color {
+    color: #4f3ccd;
+    font-size: 0.75rem;
+    font-weight: 400;
+
+    span {
+      margin-left: 0.8rem;
+    }
   }
 }

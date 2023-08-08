@@ -96,7 +96,6 @@
 
 .wk-heading-1 {
   font-size: 3rem;
-  font-family: 'Outfit', sans-serif;
   color: var(--wk-black);
 
   @include wk-media-query-max(wk-md) {
@@ -106,7 +105,6 @@
 
 .wk-heading-2 {
   font-size: 2.5rem;
-  font-family: 'Outfit', sans-serif;
   color: var(--wk-black);
 
   @include wk-media-query-max(wk-md) {
@@ -116,7 +114,6 @@
 
 .wk-heading-3 {
   font-size: 2.0625rem;
-  font-family: 'Outfit', sans-serif;
   color: var(--wk-black);
 
   @include wk-media-query-max(wk-md) {
@@ -126,7 +123,6 @@
 
 .wk-heading-4 {
   font-size: 1.75rem;
-  font-family: 'Outfit', sans-serif;
   color: var(--wk-black);
 
   @include wk-media-query-max(wk-md) {
@@ -136,7 +132,6 @@
 
 .wk-heading-5 {
   font-size: 1.4375rem;
-  font-family: 'Outfit', sans-serif;
   color: var(--wk-black);
 
   @include wk-media-query-max(wk-md) {
@@ -146,7 +141,6 @@
 
 .wk-heading-6 {
   font-size: 1.1875rem;
-  font-family: 'Outfit', sans-serif;
   color: var(--wk-black);
 
   @include wk-media-query-max(wk-md) {
@@ -156,7 +150,6 @@
 
 .wk-sub-heading {
   font-size: 1.25rem;
-  font-family: 'Outfit', sans-serif;
   color: var(--wk-black);
 }
 
@@ -167,33 +160,28 @@
 
 .wk-para-2 {
   font-size: 1rem;
-  font-family: 'Inter', sans-serif;
   color: var(--wk-black);
   margin-bottom: 0;
 }
 
 .wk-para-1 {
-  font-family: 'Outfit', sans-serif;
   font-size: 0.875rem;
   color: var(--wk-black);
 }
 
 .wk-para {
   font-size: 0.625rem;
-  font-family: 'Outfit', sans-serif;
   margin-bottom: 0;
 }
 
 .wk-caption {
   font-size: 0.75rem;
-  font-family: 'Outfit', sans-serif;
   color: var(--wk-black);
   margin-bottom: 0;
 }
 
 .wk-footer {
   font-size: 0.25rem;
-  font-family: 'Outfit', sans-serif;
   color: var(--wk-black);
 }
 
