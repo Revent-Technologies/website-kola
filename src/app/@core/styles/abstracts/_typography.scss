@@ -57,6 +57,14 @@
 //   font-weight: 900;
 // }
 
+.wk-display-6 {
+  font-size: 6rem;
+
+  @include wk-media-query-max(wk-md) {
+    font-size: 3rem;
+  }
+}
+
 .wk-display-0 {
   font-size: 5.5rem;
   color: var(--wk-black);
