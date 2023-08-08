@@ -9,7 +9,7 @@
   }
 
   .bg-md {
-    @include zns-media-query-max(zns-md) {
+    @include rv-media-query-max(rv-md) {
       background: #f8f9fa;
     }
   }

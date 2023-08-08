@@ -20,7 +20,7 @@
     .quote-bg-1 {
       width: 50%;
 
-      @include zns-media-query-max(zns-md) {
+      @include rv-media-query-max(rv-md) {
         width: 100%;
       }
     }
@@ -32,7 +32,7 @@
       width: 70%;
       text-align: center;
 
-      @include zns-media-query-max(zns-md) {
+      @include rv-media-query-max(rv-md) {
         width: 100%;
         padding: 3rem 1rem 1rem 1rem;
       }
@@ -41,7 +41,7 @@
     .quote-para {
       width: 85%;
 
-      @include zns-media-query-max(zns-md) {
+      @include rv-media-query-max(rv-md) {
         width: 100%;
         font-size: 0.8rem;
       }
@@ -50,7 +50,7 @@
     .quote-bg-3 {
       width: 70%;
 
-      @include zns-media-query-max(zns-md) {
+      @include rv-media-query-max(rv-md) {
         width: 100%;
         padding: 0.5rem;
         font-size: 1rem;
@@ -58,7 +58,7 @@
     }
 
     .mob-heading {
-      @include zns-media-query-max(zns-md) {
+      @include rv-media-query-max(rv-md) {
         font-size: 0.8rem;
       }
     }

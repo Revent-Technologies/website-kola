@@ -7,7 +7,7 @@
     background-color: #f4f4f4;
     padding-bottom: 8rem;
 
-    @include zns-media-query-max(zns-lg) {
+    @include rv-media-query-max(rv-lg) {
       padding-bottom: 5rem;
     }
 
@@ -15,7 +15,7 @@
       p {
         width: 50%;
 
-        @include zns-media-query-max(zns-lg) {
+        @include rv-media-query-max(rv-lg) {
           width: 100%;
         }
       }

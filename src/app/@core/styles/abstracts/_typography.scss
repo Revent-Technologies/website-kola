@@ -57,144 +57,144 @@
 //   font-weight: 900;
 // }
 
-.zns-display-0 {
+.rv-display-0 {
   font-size: 5.5rem;
-  color: var(--zns-black);
+  color: var(--rv-black);
 
-  @include zns-media-query-max(zns-md) {
+  @include rv-media-query-max(rv-md) {
     font-size: 3.5rem;
   }
 
-  @include zns-media-query-max(zns-sm) {
+  @include rv-media-query-max(rv-sm) {
     font-size: 2.8rem;
   }
 }
 
-.zns-display-01 {
+.rv-display-01 {
   font-size: 3.125rem;
-  color: var(--zns-black);
+  color: var(--rv-black);
 }
 
-.zns-display-1 {
+.rv-display-1 {
   font-size: 4.5rem;
-  color: var(--zns-black);
+  color: var(--rv-black);
 }
 
-.zns-display-2 {
+.rv-display-2 {
   font-size: 3.75rem;
-  color: var(--zns-black);
+  color: var(--rv-black);
 }
 
-.zns-heading {
+.rv-heading {
   font-size: 4rem;
-  color: var(--zns-black);
+  color: var(--rv-black);
 
-  @include zns-media-query-max(zns-md) {
+  @include rv-media-query-max(rv-md) {
     font-size: 2.225rem;
   }
 }
 
-.zns-heading-1 {
+.rv-heading-1 {
   font-size: 3rem;
   font-family: 'Outfit', sans-serif;
-  color: var(--zns-black);
+  color: var(--rv-black);
 
-  @include zns-media-query-max(zns-md) {
+  @include rv-media-query-max(rv-md) {
     font-size: 2.125rem;
   }
 }
 
-.zns-heading-2 {
+.rv-heading-2 {
   font-size: 2.5rem;
   font-family: 'Outfit', sans-serif;
-  color: var(--zns-black);
+  color: var(--rv-black);
 
-  @include zns-media-query-max(zns-md) {
+  @include rv-media-query-max(rv-md) {
     font-size: 2.0625rem;
   }
 }
 
-.zns-heading-3 {
+.rv-heading-3 {
   font-size: 2.0625rem;
   font-family: 'Outfit', sans-serif;
-  color: var(--zns-black);
+  color: var(--rv-black);
 
-  @include zns-media-query-max(zns-md) {
+  @include rv-media-query-max(rv-md) {
     font-size: 1.75rem;
   }
 }
 
-.zns-heading-4 {
+.rv-heading-4 {
   font-size: 1.75rem;
   font-family: 'Outfit', sans-serif;
-  color: var(--zns-black);
+  color: var(--rv-black);
 
-  @include zns-media-query-max(zns-md) {
+  @include rv-media-query-max(rv-md) {
     font-size: 1.4375rem;
   }
 }
 
-.zns-heading-5 {
+.rv-heading-5 {
   font-size: 1.4375rem;
   font-family: 'Outfit', sans-serif;
-  color: var(--zns-black);
+  color: var(--rv-black);
 
-  @include zns-media-query-max(zns-md) {
+  @include rv-media-query-max(rv-md) {
     font-size: 1.1875rem;
   }
 }
 
-.zns-heading-6 {
+.rv-heading-6 {
   font-size: 1.1875rem;
   font-family: 'Outfit', sans-serif;
-  color: var(--zns-black);
+  color: var(--rv-black);
 
-  @include zns-media-query-max(zns-md) {
+  @include rv-media-query-max(rv-md) {
     font-size: 1rem;
   }
 }
 
-.zns-sub-heading {
+.rv-sub-heading {
   font-size: 1.25rem;
   font-family: 'Outfit', sans-serif;
-  color: var(--zns-black);
+  color: var(--rv-black);
 }
 
-.zns-para-3 {
+.rv-para-3 {
   font-size: 1.125rem;
-  color: var(--zns-black);
+  color: var(--rv-black);
 }
 
-.zns-para-2 {
+.rv-para-2 {
   font-size: 1rem;
   font-family: 'Inter', sans-serif;
-  color: var(--zns-black);
+  color: var(--rv-black);
   margin-bottom: 0;
 }
 
-.zns-para-1 {
+.rv-para-1 {
   font-family: 'Outfit', sans-serif;
   font-size: 0.875rem;
-  color: var(--zns-black);
+  color: var(--rv-black);
 }
 
-.zns-para {
+.rv-para {
   font-size: 0.625rem;
   font-family: 'Outfit', sans-serif;
   margin-bottom: 0;
 }
 
-.zns-caption {
+.rv-caption {
   font-size: 0.75rem;
   font-family: 'Outfit', sans-serif;
-  color: var(--zns-black);
+  color: var(--rv-black);
   margin-bottom: 0;
 }
 
-.zns-footer {
+.rv-footer {
   font-size: 0.25rem;
   font-family: 'Outfit', sans-serif;
-  color: var(--zns-black);
+  color: var(--rv-black);
 }
 
 /*** Font Weight ***/
@@ -231,7 +231,7 @@
   font-style: italic;
 }
 
-.zns-opacity {
+.rv-opacity {
   opacity: 0.7;
 }
 

@@ -1,8 +1,8 @@
 @use '../abstracts/theme' as *;
 
-.zns-notification-success,
-.zns-notification-warning,
-.zns-notification-error {
+.rv-notification-success,
+.rv-notification-warning,
+.rv-notification-error {
   border-radius: 0.25rem !important;
   padding: 0.75rem 1rem !important;
   min-height: 3rem !important;
@@ -10,18 +10,18 @@
   box-shadow: 0px 10px 25px rgba(232, 232, 232, 0.5) !important;
 }
 
-.zns-notification-success {
-  color: var(--zns-success) !important;
-  background: var(--zns-success-50) !important;
+.rv-notification-success {
+  color: var(--rv-success) !important;
+  background: var(--rv-success-50) !important;
 }
 
-.zns-notification-warning {
-  // color: var(--zns-warning) !important;
-  color: var(--zns-black) !important;
-  background: var(--zns-warning-50) !important;
+.rv-notification-warning {
+  // color: var(--rv-warning) !important;
+  color: var(--rv-black) !important;
+  background: var(--rv-warning-50) !important;
 }
 
-.zns-notification-error {
-  color: var(--zns-error) !important;
-  background: var(--zns-error-50) !important;
+.rv-notification-error {
+  color: var(--rv-error) !important;
+  background: var(--rv-error-50) !important;
 }

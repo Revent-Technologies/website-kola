@@ -1,21 +1,21 @@
 @use '../abstracts/theme' as *;
 
 .mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
-  background-color: var(--zns-primary-color-100) !important;
+  background-color: var(--rv-primary-color-100) !important;
 }
 
 .mat-slide-toggle.mat-checked:not(.mat-disabled) .mat-slide-toggle-thumb {
-  background-color: var(--zns-primary-color) !important;
+  background-color: var(--rv-primary-color) !important;
 }
 
 .mat-slide-toggle-bar {
-  background-color: var(--zns-neutral-100) !important;
+  background-color: var(--rv-neutral-100) !important;
 }
 
 .mat-slide-toggle-thumb {
   height: 1rem !important;
   width: 1rem !important;
-  background-color: var(--zns-neutral-400) !important;
+  background-color: var(--rv-neutral-400) !important;
 }
 
 .mat-slide-toggle-bar {
@@ -43,10 +43,10 @@
 }
 
 .mat-slide-toggle.mat-checked .mat-ripple-element {
-  background: var(--zns-primary-color) !important;
+  background: var(--rv-primary-color) !important;
 }
 
-.zns-slide-toggle-container {
+.rv-slide-toggle-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

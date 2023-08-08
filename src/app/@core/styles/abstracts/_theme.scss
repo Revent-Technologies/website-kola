@@ -24,8 +24,8 @@
 
 :root {
   @each $theme, $colors in $themed-colors {
-    .zns-theme {
-      @if #{$theme} == '--zns-theme' {
+    .rv-theme {
+      @if #{$theme} == '--rv-theme' {
         @include generateColors($colors);
       }
     }

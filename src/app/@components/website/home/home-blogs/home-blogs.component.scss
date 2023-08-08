@@ -3,4 +3,11 @@
 #blogs {
   width: 100%;
   background: #fff;
+
+  .blog-angle-icon {
+    border-radius: 0px 20px 0px 0px;
+    background: #aa1d9b;
+    display: inline-block;
+    padding: 0.2rem;
+  }
 }

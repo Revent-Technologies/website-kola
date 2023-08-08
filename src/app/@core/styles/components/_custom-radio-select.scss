@@ -46,12 +46,12 @@
   }
 
   .inp-radio:checked ~ .option {
-    background-color: var(--zns-success-50);
-    border: 2px solid var(--zns-success);
+    background-color: var(--rv-success-50);
+    border: 2px solid var(--rv-success);
   }
 
   .inp-radio:checked + .option .dot {
-    background-color: var(--zns-success);
+    background-color: var(--rv-success);
     border: none;
     display: flex;
     align-items: center;
@@ -63,7 +63,7 @@
       font-size: 0.55rem;
       text-align: center;
       line-height: 2.5rem;
-      color: var(--zns-white);
+      color: var(--rv-white);
       font-weight: bold;
     }
   }
