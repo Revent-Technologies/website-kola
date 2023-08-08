@@ -1,0 +1,24 @@
+@use 'src/app/@core/styles/abstracts/media-query' as *;
+
+#performance {
+  width: 100%;
+
+  .performance-bg {
+    background: #0e0e0e;
+  }
+
+  .performance-border {
+    border-left: 1px solid #532c4c;
+
+    @include zns-media-query-max(zns-md) {
+      border-left: none;
+      border-top: 1px solid #532c4c;
+    }
+
+    & > div {
+      @include zns-media-query-max(zns-sm) {
+        border-bottom: 1px solid #532c4c;
+      }
+    }
+  }
+}

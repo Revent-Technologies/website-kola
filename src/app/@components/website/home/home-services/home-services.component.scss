@@ -1,0 +1,28 @@
+@use 'src/app/@core/styles/abstracts/media-query' as *;
+
+#services {
+  // Service Section
+
+  .service-sec {
+    background-color: #f4f4f4;
+    padding-bottom: 8rem;
+
+    @include zns-media-query-max(zns-lg) {
+      padding-bottom: 5rem;
+    }
+
+    .services-container {
+      p {
+        width: 50%;
+
+        @include zns-media-query-max(zns-lg) {
+          width: 100%;
+        }
+      }
+
+      h3 {
+        color: #58556a;
+      }
+    }
+  }
+}

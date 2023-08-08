@@ -1,0 +1,66 @@
+@use 'src/app/@core/styles/abstracts/media-query' as *;
+
+#clients {
+  width: 100%;
+
+  .client-bg {
+    background-color: #04001f;
+    background-image: url('../../../../../assets/images/client-bg.png'),
+      url('../../../../../assets//images/subtle-stripes.png');
+    background-repeat: no-repeat, repeat;
+    background-position: center center;
+    background-size: cover, auto;
+    color: #fff;
+    padding-bottom: 3rem;
+
+    .clients {
+      padding-top: 6rem;
+    }
+
+    .quote-bg-1 {
+      width: 50%;
+
+      @include zns-media-query-max(zns-md) {
+        width: 100%;
+      }
+    }
+
+    .quote-bg-2 {
+      background: #0e061b;
+      margin-top: 3rem;
+      padding: 3rem 5rem 1rem 5rem;
+      width: 70%;
+      text-align: center;
+
+      @include zns-media-query-max(zns-md) {
+        width: 100%;
+        padding: 3rem 1rem 1rem 1rem;
+      }
+    }
+
+    .quote-para {
+      width: 85%;
+
+      @include zns-media-query-max(zns-md) {
+        width: 100%;
+        font-size: 0.8rem;
+      }
+    }
+
+    .quote-bg-3 {
+      width: 70%;
+
+      @include zns-media-query-max(zns-md) {
+        width: 100%;
+        padding: 0.5rem;
+        font-size: 1rem;
+      }
+    }
+
+    .mob-heading {
+      @include zns-media-query-max(zns-md) {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
