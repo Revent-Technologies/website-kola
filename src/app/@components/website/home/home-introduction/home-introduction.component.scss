@@ -11,7 +11,7 @@
     background-blend-mode: normal;
     border-bottom: 0.1rem solid #81808f;
 
-    @include rv-media-query-max(rv-sm) {
+    @include wk-media-query-max(wk-sm) {
       background-color: #000000;
       background-size: cover;
       background-position-x: center;
@@ -19,7 +19,7 @@
       height: 50rem;
     }
 
-    @include rv-media-query-max(rv-xsm) {
+    @include wk-media-query-max(wk-xsm) {
       // background-blend-mode: darken;
     }
   }
@@ -29,7 +29,7 @@
   }
 
   .sh-text {
-    @include rv-media-query-max(rv-xsm) {
+    @include wk-media-query-max(wk-xsm) {
       text-shadow: 1px 1px 1px #b6abab;
     }
   }
@@ -45,11 +45,11 @@
     padding-bottom: 2rem;
     opacity: 0.8;
 
-    @include rv-media-query-max(rv-lg) {
+    @include wk-media-query-max(wk-lg) {
       width: 40%;
     }
 
-    @include rv-media-query-max(rv-sm) {
+    @include wk-media-query-max(wk-sm) {
       width: 70%;
       // text-shadow: 0px 1px 1px #858080;
       text-shadow: 1px 1px 1px #c6a2a2;
@@ -61,7 +61,7 @@
     font-size: 1.25rem;
     padding: 0.6em 4.5em;
 
-    @include rv-media-query-max(rv-xsm) {
+    @include wk-media-query-max(wk-xsm) {
       font-size: 1.1rem;
     }
   }
@@ -70,7 +70,7 @@
     display: inline;
     margin-left: 3rem;
 
-    @include rv-media-query-max(rv-sm) {
+    @include wk-media-query-max(wk-sm) {
       // background-blend-mode: darken;
       margin-left: 0.3rem;
     }

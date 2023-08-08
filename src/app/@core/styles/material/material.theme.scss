@@ -4,35 +4,35 @@
 
 @include mat.core();
 
-$rv-primary: mat.define-palette($mat-rv-primary-map, 500);
+$wk-primary: mat.define-palette($mat-wk-primary-map, 500);
 
-$rv-accent: mat.define-palette($mat-rv-accent-map, 500);
+$wk-accent: mat.define-palette($mat-wk-accent-map, 500);
 
-$rv-warn: mat.define-palette($mat-rv-warn-map, 500);
+$wk-warn: mat.define-palette($mat-wk-warn-map, 500);
 
-$rv-typography: mat.define-typography-config(
+$wk-typography: mat.define-typography-config(
   $font-family: 'Greycliff CF, sans-serif',
 );
 
-$rv-light: mat.define-light-theme(
+$wk-light: mat.define-light-theme(
   (
     color: (
-      primary: $rv-primary,
-      accent: $rv-accent,
-      warn: $rv-warn,
+      primary: $wk-primary,
+      accent: $wk-accent,
+      warn: $wk-warn,
     ),
-    typography: $rv-typography,
+    typography: $wk-typography,
   )
 );
 
-$rv-dark: mat.define-dark-theme(
+$wk-dark: mat.define-dark-theme(
   (
     color: (
-      primary: $rv-primary,
-      accent: $rv-accent,
-      warn: $rv-warn,
+      primary: $wk-primary,
+      accent: $wk-accent,
+      warn: $wk-warn,
     ),
-    typography: $rv-typography,
+    typography: $wk-typography,
   )
 );
 
@@ -40,14 +40,14 @@ $rv-dark: mat.define-dark-theme(
 mat.$theme-ignore-duplication-warnings: true;
 /***************************************************/
 
-.rv-theme {
+.wk-theme {
   // &.light {
-  @include mat.all-component-themes($rv-light);
+  @include mat.all-component-themes($wk-light);
   // }
 
   // &.dark {
-  //   @include mat.all-component-themes($rv-dark);
+  //   @include mat.all-component-themes($wk-dark);
   // }
 }
 
-// @include angular-material-typography($rv-typography);
+// @include angular-material-typography($wk-typography);

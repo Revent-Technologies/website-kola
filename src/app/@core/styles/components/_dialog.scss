@@ -1,15 +1,15 @@
 @use '../abstracts/media-query' as *;
 @use '../abstracts/theme' as *;
 
-.rv-dialog-backdrop {
+.wk-dialog-backdrop {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   opacity: 0.7 !important;
-  // background: var(--rv-neutral-800);
-  background: var(--rv-primary-color-900);
+  // background: var(--wk-neutral-800);
+  background: var(--wk-primary-color-900);
   z-index: 1000;
   pointer-events: auto;
   -webkit-tap-highlight-color: transparent;
@@ -18,15 +18,15 @@
   transition: opacity 400ms cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.rv-dialog {
+.wk-dialog {
   width: 23.375rem !important;
   // max-width: 29.25rem !important;
 
-  &.rv-dialog-md {
+  &.wk-dialog-md {
     width: 33.75rem !important;
   }
 
-  &.rv-dialog-lg {
+  &.wk-dialog-lg {
     width: 43.75rem !important;
   }
 
@@ -50,11 +50,11 @@
     }
   }
 
-  // @include rv-media-query-min(rv-xxl) {
+  // @include wk-media-query-min(wk-xxl) {
   //   width: 450px;
   // }
 
-  @include rv-media-query-max(rv-xsm) {
+  @include wk-media-query-max(wk-xsm) {
     width: 100% !important;
   }
 }

@@ -10,13 +10,13 @@
   .performance-border {
     border-left: 1px solid #532c4c;
 
-    @include rv-media-query-max(rv-md) {
+    @include wk-media-query-max(wk-md) {
       border-left: none;
       border-top: 1px solid #532c4c;
     }
 
     & > div {
-      @include rv-media-query-max(rv-sm) {
+      @include wk-media-query-max(wk-sm) {
         border-bottom: 1px solid #532c4c;
       }
     }

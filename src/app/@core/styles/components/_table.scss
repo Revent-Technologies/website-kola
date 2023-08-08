@@ -17,11 +17,11 @@
   td {
     font-size: 0.875rem !important;
     font-weight: 400 !important;
-    color: var(--rv-black) !important;
+    color: var(--wk-black) !important;
   }
 
   td.mat-cell {
-    border-bottom-color: var(--rv-neutral-100) !important;
+    border-bottom-color: var(--wk-neutral-100) !important;
   }
 
   th.mat-header-cell {
@@ -29,7 +29,7 @@
   }
 
   thead {
-    background: var(--rv-neutral-50) !important;
+    background: var(--wk-neutral-50) !important;
   }
 
   tr.mat-header-row {
@@ -39,11 +39,11 @@
   .mat-sort-header-content {
     font-size: 0.75rem !important;
     font-weight: 500 !important;
-    color: var(--rv-neutral) !important;
+    color: var(--wk-neutral) !important;
   }
 
   .mat-sort-header-arrow {
-    color: var(--rv-primary-color) !important;
+    color: var(--wk-primary-color) !important;
   }
 
   .action {
@@ -52,7 +52,7 @@
     font-weight: 600;
     font-size: 0.85rem;
     line-height: 1.7rem;
-    color: var(--rv-primary-color);
+    color: var(--wk-primary-color);
   }
 
   .status {
@@ -69,28 +69,28 @@
   }
 
   .active {
-    background-color: var(--rv-primary-color-100);
-    color: var(--rv-primary-color);
+    background-color: var(--wk-primary-color-100);
+    color: var(--wk-primary-color);
   }
 
   .warning {
-    background-color: var(--rv-warning-50);
-    color: var(--rv-warning);
+    background-color: var(--wk-warning-50);
+    color: var(--wk-warning);
   }
 
   .inactive {
-    background-color: var(--rv-neutral-100);
-    color: var(--rv-neutral);
+    background-color: var(--wk-neutral-100);
+    color: var(--wk-neutral);
   }
 
   .primary {
-    background-color: var(--rv-primary-color-100);
-    color: var(--rv-primary-color);
+    background-color: var(--wk-primary-color-100);
+    color: var(--wk-primary-color);
   }
 
   .failed {
-    background-color: var(--rv-error-50);
-    color: var(--rv-error);
+    background-color: var(--wk-error-50);
+    color: var(--wk-error);
   }
 
   .status-active,
@@ -109,28 +109,28 @@
   }
 
   .status-active {
-    background-color: var(--rv-success-50);
-    color: var(--rv-success);
+    background-color: var(--wk-success-50);
+    color: var(--wk-success);
   }
 
   .status-pending {
-    background-color: var(--rv-warning-50);
-    color: var(--rv-warning);
+    background-color: var(--wk-warning-50);
+    color: var(--wk-warning);
   }
 
   .status-inactive {
-    background-color: var(--rv-neutral-50);
-    color: var(--rv-neutral);
+    background-color: var(--wk-neutral-50);
+    color: var(--wk-neutral);
   }
 
   .status-primary {
-    background-color: var(--rv-primary-color-50);
-    color: var(--rv-primary-color);
+    background-color: var(--wk-primary-color-50);
+    color: var(--wk-primary-color);
   }
 
   .status-danger {
-    background-color: var(--rv-error-50);
-    color: var(--rv-error);
+    background-color: var(--wk-error-50);
+    color: var(--wk-error);
   }
 
   .table-cta-container {
@@ -159,7 +159,7 @@
       // padding: 0.125rem 0.25rem;
       padding: 0.25rem;
       gap: 0.25rem;
-      color: var(--rv-black);
+      color: var(--wk-black);
       cursor: pointer;
       -webkit-user-select: none;
       -moz-user-select: none;
@@ -195,8 +195,8 @@
 }
 
 .custom-tooltip {
-  background: var(--rv-black) !important;
-  color: var(--rv-white) !important;
+  background: var(--wk-black) !important;
+  color: var(--wk-white) !important;
   font-size: 0.6875rem !important;
 }
 
@@ -212,7 +212,7 @@
   }
 }
 
-.rv-table-filter {
+.wk-table-filter {
   padding: 0rem;
   // -webkit-box-shadow: 0px 11.61887264251709px 124.27999877929688px 0px #2548992b !important;
   // box-shadow: 0px 11.61887264251709px 124.27999877929688px 0px #2548992b !important;
@@ -220,7 +220,7 @@
   box-shadow: 0px 2px 10px 0px #2222221a !important;
   border-radius: 0.3125rem !important;
 
-  .rv-table-filter-body {
+  .wk-table-filter-body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -231,11 +231,11 @@
     gap: 1.25rem;
     padding: 1.25rem 1rem;
 
-    .rv-table-filter-body-title {
-      color: var(--rv-neutral-400);
+    .wk-table-filter-body-title {
+      color: var(--wk-neutral-400);
     }
 
-    .rv-table-filter-items {
+    .wk-table-filter-items {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -252,7 +252,7 @@
       }
     }
 
-    .rv-table-filter-body-cta-container {
+    .wk-table-filter-body-cta-container {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;

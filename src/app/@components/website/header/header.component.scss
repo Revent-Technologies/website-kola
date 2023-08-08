@@ -9,7 +9,7 @@
   }
 
   .bg-md {
-    @include rv-media-query-max(rv-md) {
+    @include wk-media-query-max(wk-md) {
       background: #f8f9fa;
     }
   }

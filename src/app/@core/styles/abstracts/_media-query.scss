@@ -1,22 +1,22 @@
 @use 'sass:map';
 
 $min-width-breakpoints: (
-  rv-sm: 576px,
-  rv-md: 768px,
-  rv-lg: 992px,
-  rv-xl: 1200px,
-  rv-xxl: 1400px,
+  wk-sm: 576px,
+  wk-md: 768px,
+  wk-lg: 992px,
+  wk-xl: 1200px,
+  wk-xxl: 1400px,
 );
 
 $max-width-breakpoints: (
-  rv-xsm: 575.98px,
-  rv-sm: 767.98px,
-  rv-md: 991.98px,
-  rv-lg: 1199.98px,
-  rv-xl: 1399.98px,
+  wk-xsm: 575.98px,
+  wk-sm: 767.98px,
+  wk-md: 991.98px,
+  wk-lg: 1199.98px,
+  wk-xl: 1399.98px,
 );
 
-@mixin rv-media-query-min($key) {
+@mixin wk-media-query-min($key) {
   $size: map.get($min-width-breakpoints, $key);
 
   @media only screen and (min-width: $size) {
@@ -24,7 +24,7 @@ $max-width-breakpoints: (
   }
 }
 
-@mixin rv-media-query-max($key) {
+@mixin wk-media-query-max($key) {
   $size: map.get($max-width-breakpoints, $key);
 
   @media only screen and (max-width: $size) {
@@ -32,7 +32,7 @@ $max-width-breakpoints: (
   }
 }
 
-@mixin rv-media-query-between($key1, $key2) {
+@mixin wk-media-query-between($key1, $key2) {
   @media only screen and (min-width: $key1) and (max-width: $key2) {
     @content;
   }

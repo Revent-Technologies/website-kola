@@ -1,8 +1,8 @@
 @use '../abstracts/theme' as *;
 
-.rv-notification-success,
-.rv-notification-warning,
-.rv-notification-error {
+.wk-notification-success,
+.wk-notification-warning,
+.wk-notification-error {
   border-radius: 0.25rem !important;
   padding: 0.75rem 1rem !important;
   min-height: 3rem !important;
@@ -10,18 +10,18 @@
   box-shadow: 0px 10px 25px rgba(232, 232, 232, 0.5) !important;
 }
 
-.rv-notification-success {
-  color: var(--rv-success) !important;
-  background: var(--rv-success-50) !important;
+.wk-notification-success {
+  color: var(--wk-success) !important;
+  background: var(--wk-success-50) !important;
 }
 
-.rv-notification-warning {
-  // color: var(--rv-warning) !important;
-  color: var(--rv-black) !important;
-  background: var(--rv-warning-50) !important;
+.wk-notification-warning {
+  // color: var(--wk-warning) !important;
+  color: var(--wk-black) !important;
+  background: var(--wk-warning-50) !important;
 }
 
-.rv-notification-error {
-  color: var(--rv-error) !important;
-  background: var(--rv-error-50) !important;
+.wk-notification-error {
+  color: var(--wk-error) !important;
+  background: var(--wk-error-50) !important;
 }
