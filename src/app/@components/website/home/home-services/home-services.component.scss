@@ -4,7 +4,7 @@
   // Service Section
 
   .service-sec {
-    background-color: #f4f4f4;
+    background-color: var(--wk-accent-color-100);
     padding-bottom: 8rem;
 
     @include wk-media-query-max(wk-lg) {
@@ -21,7 +21,7 @@
       }
 
       h3 {
-        color: #58556a;
+        color: var(--wk-accent-color-400);
       }
     }
   }

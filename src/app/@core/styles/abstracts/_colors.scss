@@ -106,23 +106,24 @@ $wk-primary-100: #dcd6ff;
 $wk-primary-200: #b8adff;
 $wk-primary-300: #9585ff;
 $wk-primary-400: #715cff;
-$wk-primary-600: #2d0dff;
+$wk-primary-600: #7433d3;
 $wk-primary-700: #1900bf;
 $wk-primary-800: #0f0073;
-$wk-primary-900: #050026;
+$wk-primary-900: #0e061b;
+$wk-primary-1000: #aa1d9b;
 
 $wk-primary-transparent: transparentize($wk-primary, 0.95);
 
 $wk-accent: #fe337a;
 $wk-accent-50: #fff5f8;
-$wk-accent-100: #ffe0eb;
+$wk-accent-100: #f4f4f4;
 $wk-accent-200: #ffc2d7;
-$wk-accent-300: #ff99bd;
-$wk-accent-400: #fe669b;
+$wk-accent-300: #81808f;
+$wk-accent-400: #aa1d9b;
 $wk-accent-600: #fe0d61;
 $wk-accent-700: #be0143;
 $wk-accent-800: #720128;
-$wk-accent-900: #26000d;
+$wk-accent-900: #532c4c;
 
 $wk-accent-transparent: transparentize($wk-accent, 0.95);
 /******************************/
@@ -140,14 +141,14 @@ $wk-info: #65b3fb;
 $wk-info-50: #65b3fb;
 
 $wk-white: #ffffff;
-$wk-black: #222222;
+$wk-black: #0e0e0e;
 
 $wk-neutral: #64748b;
 $wk-neutral-50: #f7f8f9;
 $wk-neutral-100: #e7eaee;
 $wk-neutral-200: #d0d5dd;
 $wk-neutral-300: #b8c0cc;
-$wk-neutral-400: #a0abbb;
+$wk-neutral-400: #58556a;
 $wk-neutral-600: #4b5768;
 $wk-neutral-700: #323a46;
 $wk-neutral-800: #191d23;
@@ -166,6 +167,7 @@ $themed-colors: (
       700: $wk-primary-700,
       800: $wk-primary-800,
       900: $wk-primary-900,
+      1000: $wk-primary-1000,
     ),
     --wk-primary-color-transparent: (
       default: $wk-primary-transparent,

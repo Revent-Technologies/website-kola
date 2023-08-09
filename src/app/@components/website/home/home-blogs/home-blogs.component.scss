@@ -2,30 +2,30 @@
 
 #blogs {
   width: 100%;
-  background: #fff;
+  background: var(--wk-white);
 
   .blog-angle-icon {
     border-radius: 0px 20px 0px 0px;
-    background: #aa1d9b;
+    background: var(--wk-accent-color-400);
     display: inline-block;
     width: 2.8125rem;
     height: 2.8125rem;
   }
 
   .blog-header {
-    color: #7433d3;
+    color: var(--wk-primary-color-600);
   }
 
   .blog-img {
-    background-image: url('../../../../../assets/images/blog-img.png');
+    background-image: url('/assets/images/blog-img.png');
   }
 
   .blog-img-1 {
-    background-image: url('../../../../../assets/images/blog-img-1.png');
+    background-image: url('/assets/images/blog-img-1.png');
   }
 
   .blog-img-2 {
-    background-image: url('../../../../../assets/images/blog-img-2.png');
+    background-image: url('/assets/images/blog-img-2.png');
   }
 
   .blog-img,
@@ -39,7 +39,7 @@
   }
 
   .blog-caption {
-    color: #04001f;
+    color: var(--wk-black);
     font-weight: 1.125rem;
   }
 
@@ -48,7 +48,7 @@
   }
 
   .read-color {
-    color: #4f3ccd;
+    color: var(--wk-accent-color-400);
     font-size: 0.75rem;
     font-weight: 400;
 

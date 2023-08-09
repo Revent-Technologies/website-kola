@@ -4,20 +4,20 @@
   width: 100%;
 
   .performance-bg {
-    background: #0e0e0e;
+    background: var(--wk-black);
   }
 
   .performance-border {
-    border-left: 1px solid #532c4c;
+    border-left: 1px solid var(--wk-accent-color-900);
 
     @include wk-media-query-max(wk-md) {
       border-left: none;
-      border-top: 1px solid #532c4c;
+      border-top: 1px solid var(--wk-accent-color-900);
     }
 
     & > div {
       @include wk-media-query-max(wk-sm) {
-        border-bottom: 1px solid #532c4c;
+        border-bottom: 1px solid var(--wk-accent-color-900);
       }
     }
   }

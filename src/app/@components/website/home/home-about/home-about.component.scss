@@ -2,7 +2,7 @@
 
 #about {
   width: 100%;
-  border-top: 1px solid #000;
+  border-top: 1px solid var(wk-black);
 
   .logo-responsive {
     div {
@@ -15,15 +15,15 @@
   //   Ideas
 
   .ideas-bg {
-    background-color: #8247d7;
+    background-color: var((--wk-primary-color-600));
     background-image: url('../../../../../assets//images/ReventPattern.png');
     background-repeat: repeat;
     background-size: cover;
   }
 
   .about-btn {
-    background: #fff;
-    color: #7433d3;
+    background: var(--wk-white);
+    color: var(--wk-primary-color-600);
     font-size: 1rem;
     padding: 0.8em 2em;
 

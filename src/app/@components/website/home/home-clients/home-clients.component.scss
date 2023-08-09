@@ -4,13 +4,13 @@
   width: 100%;
 
   .client-bg {
-    background-color: #04001f;
-    background-image: url('../../../../../assets/images/client-bg.png'),
-      url('../../../../../assets//images/subtle-stripes.png');
+    background-color: var(--wk-accent-color-900);
+    background-image: url('/assets/images/client-bg.png'),
+      url('/assets//images/subtle-stripes.png');
     background-repeat: no-repeat, repeat;
     background-position: center center;
     background-size: cover, auto;
-    color: #fff;
+    color: var(--wk-white);
     padding-bottom: 3rem;
 
     .clients {
@@ -26,7 +26,7 @@
     }
 
     .quote-bg-2 {
-      background: #0e061b;
+      background: var(--wk-primary-color-900);
       margin-top: 3rem;
       padding: 3rem 5rem 1rem 5rem;
       width: 70%;
