@@ -1,13 +1,5 @@
-@use 'src/app/@core/styles/abstracts/media-query' as *;
-
 #footer {
   width: 100%;
   background: #000;
   color: white;
-
-  .social-logo {
-    @include wk-media-query-max(wk-sm) {
-      text-align: center;
-    }
-  }
 }

@@ -63,4 +63,12 @@
       }
     }
   }
+
+  .logo-responsive {
+    div {
+      @include wk-media-query-max(wk-sm) {
+        padding: 0.5rem;
+      }
+    }
+  }
 }
