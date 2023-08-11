@@ -1,11 +1,11 @@
 @use 'src/app/@core/styles/abstracts/media-query' as *;
 
-#website-about {
+#website-idea {
   //   Ideas
 
   .ideas-bg {
-    background-color: var((--wk-primary-color-600));
-    background-image: url('/assets//images/about/ReventPattern.png');
+    background-color: var(--wk-primary-color-600);
+    background-image: url('/assets//images/idea/ReventPattern.png');
     background-repeat: repeat;
     background-size: cover;
   }
