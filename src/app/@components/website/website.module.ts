@@ -6,9 +6,15 @@ import { WebsiteRoutingModule } from './website-routing.module';
 import { FooterComponent } from './footer/footer.component';
 import { HomeModule } from './home/home.module';
 import { HeaderComponent } from './header/header.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
-  declarations: [WebsiteComponent, FooterComponent, HeaderComponent],
+  declarations: [
+    WebsiteComponent,
+    FooterComponent,
+    HeaderComponent,
+    AboutComponent,
+  ],
   imports: [CommonModule, FormsModule, WebsiteRoutingModule, HomeModule],
 })
 export class WebsiteModule {}

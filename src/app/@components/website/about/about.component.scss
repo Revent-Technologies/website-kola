@@ -1,0 +1,31 @@
+@use 'src/app/@core/styles/abstracts/media-query' as *;
+
+#website-about {
+  //   Ideas
+
+  .ideas-bg {
+    background-color: var((--wk-primary-color-600));
+    background-image: url('/assets//images/about/ReventPattern.png');
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .about-btn {
+    background: var(--wk-white);
+    color: var(--wk-primary-color-600);
+    font-size: 1rem;
+    padding: 0.8em 2em;
+
+    span {
+      margin-left: 0.5rem;
+    }
+  }
+
+  .idea-para {
+    margin-top: -0.8rem;
+
+    @include wk-media-query-max(wk-sm) {
+      font-size: 0.8rem;
+    }
+  }
+}
