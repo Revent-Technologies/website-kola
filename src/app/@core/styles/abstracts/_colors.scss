@@ -111,19 +111,21 @@ $wk-primary-700: #1900bf;
 $wk-primary-800: #0f0073;
 $wk-primary-900: #0e061b;
 $wk-primary-1000: #aa1d9b;
+$wk-primary-1100: #005ede;
 
 $wk-primary-transparent: transparentize($wk-primary, 0.95);
 
 $wk-accent: #fe337a;
 $wk-accent-50: #fff5f8;
 $wk-accent-100: #f4f4f4;
-$wk-accent-200: #ffc2d7;
+$wk-accent-200: #fee6fa;
 $wk-accent-300: #81808f;
-$wk-accent-400: #aa1d9b;
+$wk-accent-400: #e3d6f6;
 $wk-accent-600: #fe0d61;
 $wk-accent-700: #be0143;
 $wk-accent-800: #720128;
 $wk-accent-900: #532c4c;
+$wk-accent-1000: #58556a;
 
 $wk-accent-transparent: transparentize($wk-accent, 0.95);
 /******************************/
@@ -153,6 +155,7 @@ $wk-neutral-600: #4b5768;
 $wk-neutral-700: #323a46;
 $wk-neutral-800: #191d23;
 $wk-neutral-900: #0d0f11;
+$wk-neutral-1000: #ffc700eb;
 
 $themed-colors: (
   --wk-theme: (
@@ -168,6 +171,7 @@ $themed-colors: (
       800: $wk-primary-800,
       900: $wk-primary-900,
       1000: $wk-primary-1000,
+      1100: $wk-primary-1100,
     ),
     --wk-primary-color-transparent: (
       default: $wk-primary-transparent,
@@ -183,6 +187,7 @@ $themed-colors: (
       700: $wk-accent-700,
       800: $wk-accent-800,
       900: $wk-accent-900,
+      1000: $wk-accent-1000,
     ),
     --wk-accent-color-transparent: (
       default: $wk-accent-transparent,
@@ -208,6 +213,7 @@ $general-colors: (
     700: $wk-neutral-700,
     800: $wk-neutral-800,
     900: $wk-neutral-900,
+    1000: $wk-neutral-1000,
   ),
   --wk-success: (
     default: $wk-success,

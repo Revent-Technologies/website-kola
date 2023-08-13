@@ -156,14 +156,45 @@
   }
 }
 
+.wk-heading-7 {
+  font-size: 1.25rem;
+  color: var(--wk-black);
+
+  @include wk-media-query-max(wk-md) {
+    font-size: 1rem;
+  }
+
+  @include wk-media-query-max(wk-sm) {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+}
+
 .wk-sub-heading {
   font-size: 1.25rem;
   color: var(--wk-black);
+
+  @include wk-media-query-max(wk-md) {
+    font-size: 1.1rem;
+  }
 }
 
 .wk-para-3 {
   font-size: 1.125rem;
   color: var(--wk-black);
+
+  @include wk-media-query-max(wk-xsm) {
+    font-size: 1rem;
+  }
+}
+
+.wk-para-3-res {
+  font-size: 1.125rem;
+  color: var(--wk-black);
+
+  @include wk-media-query-max(wk-xsm) {
+    font-size: 0.6rem;
+  }
 }
 
 .wk-para-2 {

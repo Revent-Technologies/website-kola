@@ -7,6 +7,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeModule } from './home/home.module';
 import { HeaderComponent } from './header/header.component';
 import { IdeaComponent } from './idea/idea.component';
+import { VybecashModule } from './vybecash/vybecash.module';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,12 @@ import { IdeaComponent } from './idea/idea.component';
     HeaderComponent,
     IdeaComponent,
   ],
-  imports: [CommonModule, FormsModule, WebsiteRoutingModule, HomeModule],
+  imports: [
+    CommonModule,
+    FormsModule,
+    WebsiteRoutingModule,
+    HomeModule,
+    VybecashModule,
+  ],
 })
 export class WebsiteModule {}
