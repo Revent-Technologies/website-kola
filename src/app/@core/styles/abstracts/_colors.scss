@@ -126,6 +126,7 @@ $wk-accent-700: #be0143;
 $wk-accent-800: #720128;
 $wk-accent-900: #532c4c;
 $wk-accent-1000: #58556a;
+$wk-accent-1100: #4f3ccd;
 
 $wk-accent-transparent: transparentize($wk-accent, 0.95);
 /******************************/
@@ -188,6 +189,7 @@ $themed-colors: (
       800: $wk-accent-800,
       900: $wk-accent-900,
       1000: $wk-accent-1000,
+      1100: $wk-accent-1100,
     ),
     --wk-accent-color-transparent: (
       default: $wk-accent-transparent,

@@ -5,6 +5,7 @@ import { VybecashLandingComponent } from './vybecash-landing/vybecash-landing.co
 import { VybecashOverviewComponent } from './vybecash-overview/vybecash-overview.component';
 import { VybecashTimelineComponent } from './vybecash-timeline/vybecash-timeline.component';
 import { VybecashFeaturesComponent } from './vybecash-features/vybecash-features.component';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,6 @@ import { VybecashFeaturesComponent } from './vybecash-features/vybecash-features
     VybecashTimelineComponent,
     VybecashFeaturesComponent,
   ],
-  imports: [CommonModule],
+  imports: [CommonModule, SharedModule],
 })
 export class VybecashModule {}
