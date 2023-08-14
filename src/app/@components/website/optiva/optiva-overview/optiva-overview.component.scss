@@ -1,0 +1,79 @@
+@use 'src/app/@core/styles/abstracts/media-query' as *;
+
+#optiva-overview {
+  width: 100%;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .overview-title-color {
+    color: var(--wk-accent-color-300);
+  }
+
+  .overview-buttons-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.75rem;
+    width: 100;
+
+    div {
+      padding: 0.3em 1em;
+      border-radius: 0.15rem;
+      margin-left: 0.5rem;
+      border: none;
+    }
+
+    .nor-bg {
+      background: var(--wk-accent-color-200);
+    }
+
+    .uni-bg {
+      background-color: var(--wk-accent-color-400);
+    }
+  }
+
+  .overview-single-button-container {
+    font-size: 1.25rem;
+
+    button {
+      background: var(--wk-primary-color-600);
+      color: var(--wk-white);
+      margin-top: 2rem;
+      font-weight: 700;
+      width: 9rem;
+      height: 3rem;
+    }
+  }
+
+  .overview-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    div {
+      margin-left: 0;
+    }
+  }
+
+  .overview-para {
+    font-size: 2.5rem;
+
+    @include wk-media-query-max(wk-md) {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    @include wk-media-query-max(wk-sm) {
+      font-size: 1.3rem;
+    }
+  }
+
+  .opa-color {
+    color: var(--wk-accent-color-1000);
+  }
+}

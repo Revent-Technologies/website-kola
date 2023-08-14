@@ -9,6 +9,7 @@ import { HomePerformanceComponent } from './home-performance/home-performance.co
 import { HomeClientsComponent } from './home-clients/home-clients.component';
 import { HomeBlogsComponent } from './home-blogs/home-blogs.component';
 import { HomeAboutComponent } from './home-about/home-about.component';
+import { HomeHeaderComponent } from './home-header/home-header.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { HomeAboutComponent } from './home-about/home-about.component';
     HomeClientsComponent,
     HomeBlogsComponent,
     HomeAboutComponent,
+    HomeHeaderComponent,
   ],
   imports: [CommonModule, HomeRoutingModule],
 })

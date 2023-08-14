@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { WebsiteComponent } from './website.component';
 import { VybecashComponent } from './vybecash/vybecash.component';
+import { OptivaComponent } from './optiva/optiva.component';
 
 const routes: Routes = [
   {
@@ -11,6 +12,7 @@ const routes: Routes = [
     children: [
       { path: '', component: HomeComponent },
       { path: 'vybecash', component: VybecashComponent },
+      { path: 'optiva', component: OptivaComponent },
     ],
   },
 ];

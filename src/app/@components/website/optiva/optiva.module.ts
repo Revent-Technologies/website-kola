@@ -2,9 +2,24 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { OptivaComponent } from './optiva.component';
 import { OptivaLandingComponent } from './optiva-landing/optiva-landing.component';
+import { OptivaHeaderComponent } from './optiva-header/optiva-header.component';
+import { RouterModule } from '@angular/router';
+import { OptivaOverviewComponent } from './optiva-overview/optiva-overview.component';
+import { OptivaResearchComponent } from './optiva-research/optiva-research.component';
+import { WebsiteSharedModule } from '../website-shared/website-shared.module';
+import { OptivaOtherComponent } from './optiva-other/optiva-other.component';
+import { OptivaFeaturesComponent } from './optiva-features/optiva-features.component';
 
 @NgModule({
-  declarations: [OptivaComponent, OptivaLandingComponent],
-  imports: [CommonModule],
+  declarations: [
+    OptivaComponent,
+    OptivaLandingComponent,
+    OptivaHeaderComponent,
+    OptivaOverviewComponent,
+    OptivaResearchComponent,
+    OptivaOtherComponent,
+    OptivaFeaturesComponent,
+  ],
+  imports: [CommonModule, WebsiteSharedModule, RouterModule],
 })
 export class OptivaModule {}

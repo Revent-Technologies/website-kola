@@ -1,0 +1,17 @@
+@use 'src/app/@core/styles/abstracts/media-query' as *;
+
+#home-header {
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+
+  .set-color a {
+    color: var(--wk-black);
+  }
+
+  .bg-md {
+    @include wk-media-query-max(wk-md) {
+      background: var(--wk-white);
+    }
+  }
+}

@@ -6,6 +6,8 @@ import { VybecashOverviewComponent } from './vybecash-overview/vybecash-overview
 import { VybecashTimelineComponent } from './vybecash-timeline/vybecash-timeline.component';
 import { VybecashFeaturesComponent } from './vybecash-features/vybecash-features.component';
 import { WebsiteSharedModule } from '../website-shared/website-shared.module';
+import { VybecashHeaderComponent } from './vybecash-header/vybecash-header.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,8 @@ import { WebsiteSharedModule } from '../website-shared/website-shared.module';
     VybecashOverviewComponent,
     VybecashTimelineComponent,
     VybecashFeaturesComponent,
+    VybecashHeaderComponent,
   ],
-  imports: [CommonModule, WebsiteSharedModule],
+  imports: [CommonModule, WebsiteSharedModule, RouterModule],
 })
 export class VybecashModule {}

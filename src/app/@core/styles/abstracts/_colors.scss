@@ -101,7 +101,7 @@ $mat-wk-warn-map: (
 
 /***********Theme 1************/
 $wk-primary: #4e33ff;
-$wk-primary-50: #f6f5ff;
+$wk-primary-50: #f8f5fd;
 $wk-primary-100: #dcd6ff;
 $wk-primary-200: #b8adff;
 $wk-primary-300: #9585ff;
@@ -112,6 +112,8 @@ $wk-primary-800: #0f0073;
 $wk-primary-900: #0e061b;
 $wk-primary-1000: #aa1d9b;
 $wk-primary-1100: #005ede;
+$wk-primary-1200: #011b69;
+$wk-primary-1300: #435a9c;
 
 $wk-primary-transparent: transparentize($wk-primary, 0.95);
 
@@ -173,6 +175,8 @@ $themed-colors: (
       900: $wk-primary-900,
       1000: $wk-primary-1000,
       1100: $wk-primary-1100,
+      1200: $wk-primary-1200,
+      1300: $wk-primary-1300,
     ),
     --wk-primary-color-transparent: (
       default: $wk-primary-transparent,
