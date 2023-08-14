@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { IdeaComponent } from './idea/idea.component';
 import { VybecashModule } from './vybecash/vybecash.module';
 import { OptivaModule } from './optiva/optiva.module';
+import { AfreximModule } from './afrexim/afrexim.module';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { OptivaModule } from './optiva/optiva.module';
     HomeModule,
     VybecashModule,
     OptivaModule,
+    AfreximModule,
   ],
 })
 export class WebsiteModule {}

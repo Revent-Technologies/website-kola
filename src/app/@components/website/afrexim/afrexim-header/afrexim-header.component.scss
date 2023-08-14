@@ -1,0 +1,17 @@
+@use 'src/app/@core/styles/abstracts/media-query' as *;
+
+#afrexim-header {
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+
+  .set-color a {
+    color: var(--wk-white);
+  }
+
+  .bg-md {
+    @include wk-media-query-max(wk-md) {
+      background: var(--wk-neutral-800);
+    }
+  }
+}

@@ -1,6 +1,6 @@
 @use 'src/app/@core/styles/abstracts/media-query' as *;
 
-#vybecashLanding {
+#afrexim-landing {
   width: 100%;
 
   a {
@@ -12,33 +12,25 @@
     width: 100%;
     background: linear-gradient(
       to bottom,
-      var(--wk-neutral-1000) 67%,
-      var(--wk-white) 33%
+      var(--wk-accent-color-1200) 75%,
+      var(--wk-white) 25%
     );
-    padding-top: 10rem;
+    padding-top: 8rem;
     padding-bottom: 2rem;
 
     @include wk-media-query-max(wk-md) {
       background: linear-gradient(
         to bottom,
-        var(--wk-neutral-1000) 72%,
-        var(--wk-white) 28%
+        var(--wk-accent-color-1200) 78%,
+        var(--wk-white) 22%
       );
     }
 
     @include wk-media-query-max(wk-sm) {
       background: linear-gradient(
         to bottom,
-        var(--wk-neutral-1000) 72%,
-        var(--wk-white) 28%
-      );
-    }
-
-    @include wk-media-query-max(wk-xsm) {
-      background: linear-gradient(
-        to bottom,
-        var(--wk-neutral-1000) 73%,
-        var(--wk-white) 27%
+        var(--wk-accent-color-1200) 77%,
+        var(--wk-white) 23%
       );
     }
   }
@@ -63,7 +55,7 @@
 
     div {
       padding: 0.6em 1em;
-      border-radius: 0.3rem;
+      border-radius: 0.2rem;
       margin: 0.5rem;
       font-weight: 400;
       background: var(--wk-accent-color-200);
@@ -75,7 +67,7 @@
 
     img {
       width: 70%;
-      margin-top: 3rem;
+      margin-top: 1.5rem;
 
       @include wk-media-query-max(wk-md) {
         width: 75%;

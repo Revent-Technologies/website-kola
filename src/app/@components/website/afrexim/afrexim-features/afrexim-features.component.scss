@@ -1,0 +1,56 @@
+@use 'src/app/@core/styles/abstracts/media-query' as *;
+
+#afrexim-features {
+  width: 100%;
+  background: var(--wk-white);
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+
+  .features-para {
+    font-size: 2.5rem;
+    color: var(--wk-black);
+
+    @include wk-media-query-max(wk-md) {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    @include wk-media-query-max(wk-sm) {
+      font-size: 1.3rem;
+    }
+  }
+
+  .features-title-color {
+    color: var(--wk-accent-color-300);
+  }
+
+  .opa-color {
+    color: var(--wk-accent-color-1000);
+  }
+
+  .f-btn {
+    background: var(--wk-primary-color-600);
+    color: var(--wk-white);
+    margin-top: 2rem;
+    font-weight: 700;
+    width: 11rem;
+    height: 3rem;
+  }
+
+  .image-1 {
+    width: 100%;
+  }
+
+  .little-images {
+    width: 10rem;
+    margin: 1rem;
+
+    @include wk-media-query-max(wk-md) {
+      width: 6rem;
+    }
+
+    @include wk-media-query-max(wk-xsm) {
+      width: 80%;
+    }
+  }
+}
