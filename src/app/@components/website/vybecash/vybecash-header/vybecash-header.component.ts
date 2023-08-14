@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-vybecash-header',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./vybecash-header.component.scss'],
 })
 export class VybecashHeaderComponent {
-  constructor() {}
+  constructor(private route: Router) {}
+
+  navigateTo(route: string) {
+    this.route.navigate([route]);
+  }
 }

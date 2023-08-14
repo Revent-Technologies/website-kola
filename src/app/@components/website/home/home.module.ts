@@ -10,6 +10,8 @@ import { HomeClientsComponent } from './home-clients/home-clients.component';
 import { HomeBlogsComponent } from './home-blogs/home-blogs.component';
 import { HomeAboutComponent } from './home-about/home-about.component';
 import { HomeHeaderComponent } from './home-header/home-header.component';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,6 @@ import { HomeHeaderComponent } from './home-header/home-header.component';
     HomeAboutComponent,
     HomeHeaderComponent,
   ],
-  imports: [CommonModule, HomeRoutingModule],
+  imports: [CommonModule, HomeRoutingModule, MatMenuModule, MatButtonModule],
 })
 export class HomeModule {}

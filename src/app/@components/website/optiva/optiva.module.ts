@@ -9,6 +9,8 @@ import { OptivaResearchComponent } from './optiva-research/optiva-research.compo
 import { WebsiteSharedModule } from '../website-shared/website-shared.module';
 import { OptivaOtherComponent } from './optiva-other/optiva-other.component';
 import { OptivaFeaturesComponent } from './optiva-features/optiva-features.component';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,12 @@ import { OptivaFeaturesComponent } from './optiva-features/optiva-features.compo
     OptivaOtherComponent,
     OptivaFeaturesComponent,
   ],
-  imports: [CommonModule, WebsiteSharedModule, RouterModule],
+  imports: [
+    CommonModule,
+    WebsiteSharedModule,
+    RouterModule,
+    MatButtonModule,
+    MatMenuModule,
+  ],
 })
 export class OptivaModule {}

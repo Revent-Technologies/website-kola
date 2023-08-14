@@ -8,6 +8,8 @@ import { VybecashFeaturesComponent } from './vybecash-features/vybecash-features
 import { WebsiteSharedModule } from '../website-shared/website-shared.module';
 import { VybecashHeaderComponent } from './vybecash-header/vybecash-header.component';
 import { RouterModule } from '@angular/router';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,12 @@ import { RouterModule } from '@angular/router';
     VybecashFeaturesComponent,
     VybecashHeaderComponent,
   ],
-  imports: [CommonModule, WebsiteSharedModule, RouterModule],
+  imports: [
+    CommonModule,
+    WebsiteSharedModule,
+    MatMenuModule,
+    MatButtonModule,
+    RouterModule,
+  ],
 })
 export class VybecashModule {}
