@@ -1,0 +1,59 @@
+@use 'src/app/@core/styles/abstracts/media-query' as *;
+
+#blogs {
+  width: 100%;
+  background: var(--wk-white);
+
+  .blog-angle-icon {
+    border-radius: 0px 20px 0px 0px;
+    background: var(--wk-accent-color-1100);
+    display: inline-block;
+    width: 2.8125rem;
+    height: 2.8125rem;
+  }
+
+  .blog-header {
+    color: var(--wk-primary-color-600);
+  }
+
+  .blog-img {
+    background-image: url('/assets/images/website/home/home-blog/blog-img.png');
+  }
+
+  .blog-img-1 {
+    background-image: url('/assets/images/website/home/home-blog/blog-img-1.png');
+  }
+
+  .blog-img-2 {
+    background-image: url('/assets/images/website/home/home-blog/blog-img-2.png');
+  }
+
+  .blog-img,
+  .blog-img-1,
+  .blog-img-2 {
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15.25rem;
+    border-radius: 8px 8px 0px 0px;
+  }
+
+  .blog-caption {
+    color: var(--wk-black);
+    font-weight: 1.125rem;
+  }
+
+  .b-lh {
+    line-height: 1.75rem;
+  }
+
+  .read-color {
+    color: var(--wk-accent-color-1100);
+    font-size: 0.75rem;
+    font-weight: 400;
+
+    span {
+      margin-left: 0.8rem;
+    }
+  }
+}

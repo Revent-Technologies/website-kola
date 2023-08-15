@@ -1,8 +1,8 @@
 @use '../abstracts/theme' as *;
 
-.zns-notification-success,
-.zns-notification-warning,
-.zns-notification-error {
+.wk-notification-success,
+.wk-notification-warning,
+.wk-notification-error {
   border-radius: 0.25rem !important;
   padding: 0.75rem 1rem !important;
   min-height: 3rem !important;
@@ -10,18 +10,18 @@
   box-shadow: 0px 10px 25px rgba(232, 232, 232, 0.5) !important;
 }
 
-.zns-notification-success {
-  color: var(--zns-success) !important;
-  background: var(--zns-success-50) !important;
+.wk-notification-success {
+  color: var(--wk-success) !important;
+  background: var(--wk-success-50) !important;
 }
 
-.zns-notification-warning {
-  // color: var(--zns-warning) !important;
-  color: var(--zns-black) !important;
-  background: var(--zns-warning-50) !important;
+.wk-notification-warning {
+  // color: var(--wk-warning) !important;
+  color: var(--wk-black) !important;
+  background: var(--wk-warning-50) !important;
 }
 
-.zns-notification-error {
-  color: var(--zns-error) !important;
-  background: var(--zns-error-50) !important;
+.wk-notification-error {
+  color: var(--wk-error) !important;
+  background: var(--wk-error-50) !important;
 }

@@ -1,0 +1,14 @@
+@use 'src/app/@core/styles/abstracts/media-query' as *;
+
+#about {
+  width: 100%;
+  border-top: 1px solid var(wk-black);
+
+  .logo-responsive {
+    div {
+      @include wk-media-query-max(wk-sm) {
+        padding: 0.5rem;
+      }
+    }
+  }
+}

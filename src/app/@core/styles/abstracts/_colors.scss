@@ -1,5 +1,5 @@
 /******* Custom Palette *******/
-$mat-zns-primary-map: (
+$mat-wk-primary-map: (
   50: #eae7ff,
   100: #cac2ff,
   200: #a799ff,
@@ -32,7 +32,7 @@ $mat-zns-primary-map: (
   ),
 );
 
-$mat-zns-accent-map: (
+$mat-wk-accent-map: (
   50: #ffe7ef,
   100: #ffc2d7,
   200: #ff99bd,
@@ -65,7 +65,7 @@ $mat-zns-accent-map: (
   ),
 );
 
-$mat-zns-warn-map: (
+$mat-wk-warn-map: (
   50: #fde0e4,
   100: #fab3bc,
   200: #f78090,
@@ -100,127 +100,143 @@ $mat-zns-warn-map: (
 /******************************/
 
 /***********Theme 1************/
-$zns-primary: #4e33ff;
-$zns-primary-50: #f6f5ff;
-$zns-primary-100: #dcd6ff;
-$zns-primary-200: #b8adff;
-$zns-primary-300: #9585ff;
-$zns-primary-400: #715cff;
-$zns-primary-600: #2d0dff;
-$zns-primary-700: #1900bf;
-$zns-primary-800: #0f0073;
-$zns-primary-900: #050026;
+$wk-primary: #4e33ff;
+$wk-primary-50: #f8f5fd;
+$wk-primary-100: #dcd6ff;
+$wk-primary-200: #b8adff;
+$wk-primary-300: #9585ff;
+$wk-primary-400: #715cff;
+$wk-primary-600: #7433d3;
+$wk-primary-700: #1900bf;
+$wk-primary-800: #0f0073;
+$wk-primary-900: #0e061b;
+$wk-primary-1000: #aa1d9b;
+$wk-primary-1100: #005ede;
+$wk-primary-1200: #011b69;
+$wk-primary-1300: #435a9c;
 
-$zns-primary-transparent: transparentize($zns-primary, 0.95);
+$wk-primary-transparent: transparentize($wk-primary, 0.95);
 
-$zns-accent: #fe337a;
-$zns-accent-50: #fff5f8;
-$zns-accent-100: #ffe0eb;
-$zns-accent-200: #ffc2d7;
-$zns-accent-300: #ff99bd;
-$zns-accent-400: #fe669b;
-$zns-accent-600: #fe0d61;
-$zns-accent-700: #be0143;
-$zns-accent-800: #720128;
-$zns-accent-900: #26000d;
+$wk-accent: #fe337a;
+$wk-accent-50: #fff5f8;
+$wk-accent-100: #f4f4f4;
+$wk-accent-200: #fee6fa;
+$wk-accent-300: #81808f;
+$wk-accent-400: #e3d6f6;
+$wk-accent-600: #fe0d61;
+$wk-accent-700: #be0143;
+$wk-accent-800: #720128;
+$wk-accent-900: #532c4c;
+$wk-accent-1000: #58556a;
+$wk-accent-1100: #4f3ccd;
+$wk-accent-1200: #00736eeb;
 
-$zns-accent-transparent: transparentize($zns-accent, 0.95);
+$wk-accent-transparent: transparentize($wk-accent, 0.95);
 /******************************/
 
-$zns-success: #10b981;
-$zns-success-50: #ecfdf5;
+$wk-success: #10b981;
+$wk-success-50: #ecfdf5;
 
-$zns-warning: #f59e0b;
-$zns-warning-50: #fffbeb;
+$wk-warning: #f59e0b;
+$wk-warning-50: #fffbeb;
 
-$zns-error: #ef4444;
-$zns-error-50: #fef2f2;
+$wk-error: #ef4444;
+$wk-error-50: #fef2f2;
 
-$zns-info: #65b3fb;
-$zns-info-50: #65b3fb;
+$wk-info: #65b3fb;
+$wk-info-50: #65b3fb;
 
-$zns-white: #ffffff;
-$zns-black: #222222;
+$wk-white: #ffffff;
+$wk-black: #0e0e0e;
 
-$zns-neutral: #64748b;
-$zns-neutral-50: #f7f8f9;
-$zns-neutral-100: #e7eaee;
-$zns-neutral-200: #d0d5dd;
-$zns-neutral-300: #b8c0cc;
-$zns-neutral-400: #a0abbb;
-$zns-neutral-600: #4b5768;
-$zns-neutral-700: #323a46;
-$zns-neutral-800: #191d23;
-$zns-neutral-900: #0d0f11;
+$wk-neutral: #64748b;
+$wk-neutral-50: #f7f8f9;
+$wk-neutral-100: #e7eaee;
+$wk-neutral-200: #d0d5dd;
+$wk-neutral-300: #b8c0cc;
+$wk-neutral-400: #58556a;
+$wk-neutral-600: #4b5768;
+$wk-neutral-700: #323a46;
+$wk-neutral-800: #191d23;
+$wk-neutral-900: #0d0f11;
+$wk-neutral-1000: #ffc700eb;
 
 $themed-colors: (
-  --zns-theme: (
-    --zns-primary-color: (
-      default: $zns-primary,
-      50: $zns-primary-50,
-      100: $zns-primary-100,
-      200: $zns-primary-200,
-      300: $zns-primary-300,
-      400: $zns-primary-400,
-      600: $zns-primary-600,
-      700: $zns-primary-700,
-      800: $zns-primary-800,
-      900: $zns-primary-900,
+  --wk-theme: (
+    --wk-primary-color: (
+      default: $wk-primary,
+      50: $wk-primary-50,
+      100: $wk-primary-100,
+      200: $wk-primary-200,
+      300: $wk-primary-300,
+      400: $wk-primary-400,
+      600: $wk-primary-600,
+      700: $wk-primary-700,
+      800: $wk-primary-800,
+      900: $wk-primary-900,
+      1000: $wk-primary-1000,
+      1100: $wk-primary-1100,
+      1200: $wk-primary-1200,
+      1300: $wk-primary-1300,
     ),
-    --zns-primary-color-transparent: (
-      default: $zns-primary-transparent,
+    --wk-primary-color-transparent: (
+      default: $wk-primary-transparent,
     ),
-    --zns-accent-color: (
-      default: $zns-accent,
-      50: $zns-accent-50,
-      100: $zns-accent-100,
-      200: $zns-accent-200,
-      300: $zns-accent-300,
-      400: $zns-accent-400,
-      600: $zns-accent-600,
-      700: $zns-accent-700,
-      800: $zns-accent-800,
-      900: $zns-accent-900,
+    --wk-accent-color: (
+      default: $wk-accent,
+      50: $wk-accent-50,
+      100: $wk-accent-100,
+      200: $wk-accent-200,
+      300: $wk-accent-300,
+      400: $wk-accent-400,
+      600: $wk-accent-600,
+      700: $wk-accent-700,
+      800: $wk-accent-800,
+      900: $wk-accent-900,
+      1000: $wk-accent-1000,
+      1100: $wk-accent-1100,
+      1200: $wk-accent-1200,
     ),
-    --zns-accent-color-transparent: (
-      default: $zns-accent-transparent,
+    --wk-accent-color-transparent: (
+      default: $wk-accent-transparent,
     ),
   ),
 );
 
 $general-colors: (
-  --zns-white: (
-    default: $zns-white,
+  --wk-white: (
+    default: $wk-white,
   ),
-  --zns-black: (
-    default: $zns-black,
+  --wk-black: (
+    default: $wk-black,
   ),
-  --zns-neutral: (
-    default: $zns-neutral,
-    50: $zns-neutral-50,
-    100: $zns-neutral-100,
-    200: $zns-neutral-200,
-    300: $zns-neutral-300,
-    400: $zns-neutral-400,
-    600: $zns-neutral-600,
-    700: $zns-neutral-700,
-    800: $zns-neutral-800,
-    900: $zns-neutral-900,
+  --wk-neutral: (
+    default: $wk-neutral,
+    50: $wk-neutral-50,
+    100: $wk-neutral-100,
+    200: $wk-neutral-200,
+    300: $wk-neutral-300,
+    400: $wk-neutral-400,
+    600: $wk-neutral-600,
+    700: $wk-neutral-700,
+    800: $wk-neutral-800,
+    900: $wk-neutral-900,
+    1000: $wk-neutral-1000,
   ),
-  --zns-success: (
-    default: $zns-success,
-    50: $zns-success-50,
+  --wk-success: (
+    default: $wk-success,
+    50: $wk-success-50,
   ),
-  --zns-warning: (
-    default: $zns-warning,
-    50: $zns-warning-50,
+  --wk-warning: (
+    default: $wk-warning,
+    50: $wk-warning-50,
   ),
-  --zns-error: (
-    default: $zns-error,
-    50: $zns-error-50,
+  --wk-error: (
+    default: $wk-error,
+    50: $wk-error-50,
   ),
-  --zns-info: (
-    default: $zns-info,
-    50: $zns-info-50,
+  --wk-info: (
+    default: $wk-info,
+    50: $wk-info-50,
   ),
 );

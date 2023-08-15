@@ -1,0 +1,22 @@
+@use 'src/app/@core/styles/abstracts/media-query' as *;
+
+#vybecash-timeline {
+  width: 100%;
+  background: var(--wk-primary-color-1100);
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  //   text-shadow: 0 0 1px var(--wk-black);
+
+  .timeline-para {
+    font-size: 2.5rem;
+
+    @include wk-media-query-max(wk-md) {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    @include wk-media-query-max(wk-sm) {
+      font-size: 1.3rem;
+    }
+  }
+}

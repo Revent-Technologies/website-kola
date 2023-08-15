@@ -1,0 +1,87 @@
+@use 'src/app/@core/styles/abstracts/media-query' as *;
+
+#afrexim-landing {
+  width: 100%;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .split-background {
+    width: 100%;
+    background: linear-gradient(
+      to bottom,
+      var(--wk-accent-color-1200) 75%,
+      var(--wk-white) 25%
+    );
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+
+    @include wk-media-query-max(wk-md) {
+      background: linear-gradient(
+        to bottom,
+        var(--wk-accent-color-1200) 78%,
+        var(--wk-white) 22%
+      );
+    }
+
+    @include wk-media-query-max(wk-sm) {
+      background: linear-gradient(
+        to bottom,
+        var(--wk-accent-color-1200) 77%,
+        var(--wk-white) 23%
+      );
+    }
+  }
+
+  .landing-para {
+    @include wk-media-query-max(wk-sm) {
+      font-size: 1.1rem;
+    }
+  }
+
+  .landing-buttons-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.75rem;
+
+    @include wk-media-query-max(wk-xsm) {
+      font-size: 0.5rem;
+      padding: 1rem;
+    }
+
+    div {
+      padding: 0.6em 1em;
+      border-radius: 0.2rem;
+      margin: 0.5rem;
+      font-weight: 400;
+      background: var(--wk-accent-color-200);
+    }
+  }
+
+  .landing-image-container {
+    width: 100%;
+
+    img {
+      width: 70%;
+      margin-top: 1.5rem;
+
+      @include wk-media-query-max(wk-md) {
+        width: 75%;
+      }
+
+      @include wk-media-query-max(wk-sm) {
+        width: 83%;
+        margin-top: 2rem;
+      }
+
+      @include wk-media-query-max(wk-xsm) {
+        width: 95%;
+        margin-top: 1rem;
+      }
+    }
+  }
+}

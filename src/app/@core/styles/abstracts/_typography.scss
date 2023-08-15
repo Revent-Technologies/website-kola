@@ -57,139 +57,171 @@
 //   font-weight: 900;
 // }
 
-.zns-display-0 {
+.wk-display-6 {
+  font-size: 6rem;
+
+  @include wk-media-query-max(wk-md) {
+    font-size: 3rem;
+  }
+}
+
+.wk-display-0 {
   font-size: 5.5rem;
-  color: var(--zns-black);
+  color: var(--wk-black);
 
-  @include zns-media-query-max(zns-md) {
-    font-size: 3.5rem;
+  @include wk-media-query-max(wk-md) {
+    font-size: 4rem;
   }
 
-  @include zns-media-query-max(zns-sm) {
-    font-size: 2.8rem;
+  @include wk-media-query-max(wk-sm) {
+    font-size: 2.5rem;
   }
 }
 
-.zns-display-1 {
+.wk-display-01 {
+  font-size: 3.125rem;
+  color: var(--wk-black);
+}
+
+.wk-display-1 {
   font-size: 4.5rem;
-  color: var(--zns-black);
+  color: var(--wk-black);
 }
 
-.zns-display-2 {
+.wk-display-2 {
   font-size: 3.75rem;
-  color: var(--zns-black);
+  color: var(--wk-black);
 }
 
-.zns-heading {
+.wk-heading {
   font-size: 4rem;
-  color: var(--zns-black);
+  color: var(--wk-black);
 
-  @include zns-media-query-max(zns-md) {
+  @include wk-media-query-max(wk-md) {
     font-size: 2.225rem;
   }
 }
 
-.zns-heading-1 {
+.wk-heading-1 {
   font-size: 3rem;
-  font-family: 'Outfit', sans-serif;
-  color: var(--zns-black);
+  color: var(--wk-black);
 
-  @include zns-media-query-max(zns-md) {
+  @include wk-media-query-max(wk-md) {
     font-size: 2.125rem;
   }
 }
 
-.zns-heading-2 {
+.wk-heading-2 {
   font-size: 2.5rem;
-  font-family: 'Outfit', sans-serif;
-  color: var(--zns-black);
+  color: var(--wk-black);
 
-  @include zns-media-query-max(zns-md) {
+  @include wk-media-query-max(wk-md) {
     font-size: 2.0625rem;
   }
 }
 
-.zns-heading-3 {
+.wk-heading-3 {
   font-size: 2.0625rem;
-  font-family: 'Outfit', sans-serif;
-  color: var(--zns-black);
+  color: var(--wk-black);
 
-  @include zns-media-query-max(zns-md) {
+  @include wk-media-query-max(wk-md) {
     font-size: 1.75rem;
   }
 }
 
-.zns-heading-4 {
+.wk-heading-4 {
   font-size: 1.75rem;
-  font-family: 'Outfit', sans-serif;
-  color: var(--zns-black);
+  color: var(--wk-black);
 
-  @include zns-media-query-max(zns-md) {
+  @include wk-media-query-max(wk-md) {
     font-size: 1.4375rem;
   }
 }
 
-.zns-heading-5 {
+.wk-heading-5 {
   font-size: 1.4375rem;
-  font-family: 'Outfit', sans-serif;
-  color: var(--zns-black);
+  color: var(--wk-black);
 
-  @include zns-media-query-max(zns-md) {
+  @include wk-media-query-max(wk-md) {
     font-size: 1.1875rem;
   }
 }
 
-.zns-heading-6 {
+.wk-heading-6 {
   font-size: 1.1875rem;
-  font-family: 'Outfit', sans-serif;
-  color: var(--zns-black);
+  color: var(--wk-black);
 
-  @include zns-media-query-max(zns-md) {
+  @include wk-media-query-max(wk-md) {
     font-size: 1rem;
   }
 }
 
-.zns-sub-heading {
+.wk-heading-7 {
   font-size: 1.25rem;
-  font-family: 'Outfit', sans-serif;
-  color: var(--zns-black);
+  color: var(--wk-black);
+
+  @include wk-media-query-max(wk-md) {
+    font-size: 1rem;
+  }
+
+  @include wk-media-query-max(wk-sm) {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
 }
 
-.zns-para-3 {
+.wk-sub-heading {
+  font-size: 1.25rem;
+  color: var(--wk-black);
+
+  @include wk-media-query-max(wk-md) {
+    font-size: 1.1rem;
+  }
+}
+
+.wk-para-3 {
   font-size: 1.125rem;
-  color: var(--zns-black);
+  color: var(--wk-black);
+
+  @include wk-media-query-max(wk-xsm) {
+    font-size: 1rem;
+  }
 }
 
-.zns-para-2 {
+.wk-para-3-res {
+  font-size: 1.125rem;
+  color: var(--wk-black);
+
+  @include wk-media-query-max(wk-xsm) {
+    font-size: 0.6rem;
+  }
+}
+
+.wk-para-2 {
   font-size: 1rem;
-  font-family: 'Inter', sans-serif;
-  color: var(--zns-black);
+  color: var(--wk-black);
   margin-bottom: 0;
 }
 
-.zns-para-1 {
-  font-family: 'Outfit', sans-serif;
+.wk-para-1 {
   font-size: 0.875rem;
-  color: var(--zns-black);
+  color: var(--wk-black);
 }
 
-.zns-para {
+.wk-para {
   font-size: 0.625rem;
-  font-family: 'Outfit', sans-serif;
   margin-bottom: 0;
 }
 
-.zns-caption {
+.wk-caption {
   font-size: 0.75rem;
-  font-family: 'Outfit', sans-serif;
-  color: var(--zns-black);
+  color: var(--wk-black);
   margin-bottom: 0;
 }
 
-.zns-footer {
+.wk-footer {
   font-size: 0.25rem;
-  font-family: 'Outfit', sans-serif;
-  color: var(--zns-black);
+  color: var(--wk-black);
 }
 
 /*** Font Weight ***/
@@ -226,8 +258,12 @@
   font-style: italic;
 }
 
-.zns-opacity {
+.wk-opacity {
   opacity: 0.7;
+}
+
+.wk-cursor {
+  cursor: pointer !important;
 }
 
 /*******************/

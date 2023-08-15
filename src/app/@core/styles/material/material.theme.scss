@@ -4,35 +4,35 @@
 
 @include mat.core();
 
-$Zns-primary: mat.define-palette($mat-zns-primary-map, 500);
+$wk-primary: mat.define-palette($mat-wk-primary-map, 500);
 
-$Zns-accent: mat.define-palette($mat-zns-accent-map, 500);
+$wk-accent: mat.define-palette($mat-wk-accent-map, 500);
 
-$Zns-warn: mat.define-palette($mat-zns-warn-map, 500);
+$wk-warn: mat.define-palette($mat-wk-warn-map, 500);
 
-$Zns-typography: mat.define-typography-config(
+$wk-typography: mat.define-typography-config(
   $font-family: 'Greycliff CF, sans-serif',
 );
 
-$Zns-light: mat.define-light-theme(
+$wk-light: mat.define-light-theme(
   (
     color: (
-      primary: $Zns-primary,
-      accent: $Zns-accent,
-      warn: $Zns-warn,
+      primary: $wk-primary,
+      accent: $wk-accent,
+      warn: $wk-warn,
     ),
-    typography: $Zns-typography,
+    typography: $wk-typography,
   )
 );
 
-$Zns-dark: mat.define-dark-theme(
+$wk-dark: mat.define-dark-theme(
   (
     color: (
-      primary: $Zns-primary,
-      accent: $Zns-accent,
-      warn: $Zns-warn,
+      primary: $wk-primary,
+      accent: $wk-accent,
+      warn: $wk-warn,
     ),
-    typography: $Zns-typography,
+    typography: $wk-typography,
   )
 );
 
@@ -40,14 +40,14 @@ $Zns-dark: mat.define-dark-theme(
 mat.$theme-ignore-duplication-warnings: true;
 /***************************************************/
 
-.zns-theme {
+.wk-theme {
   // &.light {
-  @include mat.all-component-themes($Zns-light);
+  @include mat.all-component-themes($wk-light);
   // }
 
   // &.dark {
-  //   @include mat.all-component-themes($Zns-dark);
+  //   @include mat.all-component-themes($wk-dark);
   // }
 }
 
-// @include angular-material-typography($Zns-typography);
+// @include angular-material-typography($wk-typography);

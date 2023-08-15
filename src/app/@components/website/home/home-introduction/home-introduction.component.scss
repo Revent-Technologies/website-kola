@@ -1,0 +1,79 @@
+@use 'src/app/@core/styles/abstracts/media-query' as *;
+
+#introduction {
+  .top-background {
+    background-color: var(--wk-white);
+    background-image: url('/assets/images/website/home/home-introduction/pic1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100%;
+    height: 56.25rem;
+    background-blend-mode: normal;
+    border-bottom: 0.1rem solid var(--wk-accent-color-300);
+
+    @include wk-media-query-max(wk-sm) {
+      background-color: var(--wk-black);
+      background-size: cover;
+      background-position-x: center;
+      height: 50rem;
+    }
+  }
+
+  .top-section {
+    margin-top: 9.2rem;
+  }
+
+  .sh-text {
+    @include wk-media-query-max(wk-xsm) {
+      margin-top: -1.5rem;
+      text-shadow: 1px 1px 1px var(--wk-neutral-300);
+    }
+  }
+
+  .sh-blue {
+    @include wk-media-query-max(wk-xsm) {
+      font-size: 2.15rem;
+    }
+  }
+
+  .top-title {
+    line-height: 7.375rem;
+  }
+
+  .top-para {
+    width: 35%;
+    line-height: 2rem;
+    color: var(--wk-neutral-400);
+    padding-bottom: 2rem;
+    opacity: 0.8;
+
+    @include wk-media-query-max(wk-lg) {
+      width: 40%;
+    }
+
+    @include wk-media-query-max(wk-sm) {
+      width: 70%;
+      text-shadow: 1px 1px 1px var(--wk-neutral-300);
+      margin-top: 3rem;
+    }
+  }
+
+  .top-btn {
+    font-size: 1.25rem;
+    padding: 0.6em 4.5em;
+
+    @include wk-media-query-max(wk-xsm) {
+      font-size: 1.1rem;
+    }
+  }
+
+  .top-service {
+    display: inline;
+    margin-left: 3rem;
+
+    @include wk-media-query-max(wk-sm) {
+      // background-blend-mode: darken;
+      margin-left: 0.3rem;
+    }
+  }
+}

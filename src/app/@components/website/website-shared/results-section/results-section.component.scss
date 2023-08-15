@@ -1,0 +1,23 @@
+#result {
+  width: 100;
+  background: var(--wk-black);
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+
+  .result-title {
+    color: var(--wk-accent-color-300);
+  }
+
+  .opa-color {
+    color: var(--wk-accent-color-100);
+  }
+
+  .f-btn {
+    background: var(--wk-primary-color-600);
+    color: var(--wk-white);
+    margin-top: 2rem;
+    font-weight: 700;
+    width: 12rem;
+    height: 2.7rem;
+  }
+}

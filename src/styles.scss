@@ -16,12 +16,12 @@
 
   &::-moz-selection {
     color: #ffffff;
-    background: var(--zns-primary-color);
+    background: var(--wk-primary-color);
   }
 
   &::selection {
     color: #ffffff;
-    background: var(--zns-primary-color);
+    background: var(--wk-primary-color);
   }
 }
 
@@ -36,6 +36,10 @@ body {
   cursor: auto !important;
 }
 
+.font-inter {
+  font-style: 'Inter', sans-serif !important;
+}
+
 /* Custom Scrollbar */
 
 ::-webkit-scrollbar {
@@ -46,8 +50,8 @@ body {
 ::-webkit-scrollbar-thumb {
   // border-radius: 8px;
   // background-color: #ccc;
-  // background-color: var(--zns-primary-color);
-  background-color: var(--zns-neutral-300);
+  // background-color: var(--wk-primary-color);
+  background-color: var(--wk-neutral-300);
   border: 1.5px solid transparent;
   background-clip: content-box;
 }
