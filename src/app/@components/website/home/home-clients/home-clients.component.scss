@@ -66,8 +66,10 @@
 
   .logo-responsive {
     div {
+      margin: 0.4rem;
+
       @include wk-media-query-max(wk-sm) {
-        padding: 0.5rem;
+        margin: 0.8rem;
       }
     }
   }
